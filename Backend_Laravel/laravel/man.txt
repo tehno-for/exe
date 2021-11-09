@@ -1,0 +1,16 @@
+php artisan serve
+
+php artisan migrate
+
+Cross Site Request Forgery (CSRF)
+
+php artisan route:list
+
+php artisan help migrate
+
+php artisan tinker
+
+php artisan inspire
+
+php artisan make:controller AppController
+

@@ -1,0 +1,164 @@
+Laravel development server started: http://127.0.0.1:8000
+[Fri Jul 23 23:33:40 2021] 127.0.0.1:36016 [200]: /css/app.css
+[Fri Jul 23 23:33:40 2021] 127.0.0.1:36020 [200]: /css/starter-template.css
+[Fri Jul 23 23:33:40 2021] 127.0.0.1:36024 [200]: /js/app.js
+[Fri Jul 23 23:33:40 2021] 127.0.0.1:36028 [200]: /images/logo-icon.png
+[Fri Jul 23 23:33:40 2021] 127.0.0.1:36032 [200]: /favicon.ico
+Laravel development server started: http://127.0.0.1:8000
+[Fri Jul 23 23:35:08 2021] 127.0.0.1:36874 [200]: /css/app.css
+[Fri Jul 23 23:35:08 2021] 127.0.0.1:36878 [200]: /css/starter-template.css
+[Fri Jul 23 23:35:08 2021] 127.0.0.1:36882 [200]: /js/app.js
+[Fri Jul 23 23:35:08 2021] 127.0.0.1:36886 [200]: /images/logo-icon.png
+[Fri Jul 23 23:35:08 2021] 127.0.0.1:36890 [200]: /favicon.ico
+[Sat Jul 24 00:34:21 2021] 127.0.0.1:37366 [200]: /css/app.css
+[Sat Jul 24 00:34:21 2021] 127.0.0.1:37372 [200]: /css/starter-template.css
+[Sat Jul 24 00:34:21 2021] 127.0.0.1:37376 [200]: /js/app.js
+[Sat Jul 24 00:34:21 2021] 127.0.0.1:37380 [200]: /images/logo-icon.png
+[Sat Jul 24 00:34:21 2021] 127.0.0.1:37386 [200]: /favicon.ico
+[Sat Jul 24 00:34:22 2021] 127.0.0.1:37394 [200]: /css/app.css
+[Sat Jul 24 00:34:22 2021] 127.0.0.1:37398 [200]: /css/starter-template.css
+[Sat Jul 24 00:34:22 2021] 127.0.0.1:37402 [200]: /js/app.js
+[Sat Jul 24 00:34:22 2021] 127.0.0.1:37406 [200]: /images/logo-icon.png
+[Sat Jul 24 00:34:22 2021] 127.0.0.1:37410 [200]: /favicon.ico
+[Sat Jul 24 00:34:22 2021] 127.0.0.1:37418 [200]: /css/app.css
+[Sat Jul 24 00:34:22 2021] 127.0.0.1:37422 [200]: /css/starter-template.css
+[Sat Jul 24 00:34:22 2021] 127.0.0.1:37426 [200]: /js/app.js
+[Sat Jul 24 00:34:22 2021] 127.0.0.1:37430 [200]: /images/logo-icon.png
+[Sat Jul 24 00:34:22 2021] 127.0.0.1:37434 [200]: /favicon.ico
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37442 [200]: /css/app.css
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37446 [200]: /css/starter-template.css
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37450 [200]: /js/app.js
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37454 [200]: /images/logo-icon.png
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37458 [200]: /favicon.ico
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37466 [200]: /css/app.css
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37470 [200]: /css/starter-template.css
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37474 [200]: /js/app.js
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37478 [200]: /images/logo-icon.png
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37482 [200]: /favicon.ico
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37490 [200]: /css/app.css
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37494 [200]: /css/starter-template.css
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37498 [200]: /js/app.js
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37502 [200]: /images/logo-icon.png
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37506 [200]: /favicon.ico
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37514 [200]: /css/app.css
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37518 [200]: /css/starter-template.css
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37522 [200]: /js/app.js
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37526 [200]: /images/logo-icon.png
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37530 [200]: /favicon.ico
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37538 [200]: /css/app.css
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37542 [200]: /css/starter-template.css
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37546 [200]: /js/app.js
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37550 [200]: /images/logo-icon.png
+[Sat Jul 24 00:34:23 2021] 127.0.0.1:37554 [200]: /favicon.ico
+[Sat Jul 24 00:34:25 2021] 127.0.0.1:37562 [200]: /css/app.css
+[Sat Jul 24 00:34:25 2021] 127.0.0.1:37566 [200]: /css/starter-template.css
+[Sat Jul 24 00:34:25 2021] 127.0.0.1:37572 [200]: /js/app.js
+[Sat Jul 24 00:34:25 2021] 127.0.0.1:37576 [200]: /images/logo-icon.png
+[Sat Jul 24 00:34:25 2021] 127.0.0.1:37580 [200]: /favicon.ico
+[Sat Jul 24 00:35:45 2021] 127.0.0.1:37608 [200]: /css/app.css
+[Sat Jul 24 00:35:45 2021] 127.0.0.1:37614 [200]: /css/starter-template.css
+[Sat Jul 24 00:35:45 2021] 127.0.0.1:37618 [200]: /images/logo-icon.png
+[Sat Jul 24 00:35:45 2021] 127.0.0.1:37622 [200]: /favicon.ico
+[Sat Jul 24 00:35:47 2021] 127.0.0.1:37630 [200]: /css/app.css
+[Sat Jul 24 00:35:47 2021] 127.0.0.1:37634 [200]: /css/starter-template.css
+[Sat Jul 24 00:35:47 2021] 127.0.0.1:37638 [200]: /images/logo-icon.png
+[Sat Jul 24 00:35:47 2021] 127.0.0.1:37642 [200]: /favicon.ico
+[Sat Jul 24 00:35:47 2021] 127.0.0.1:37650 [200]: /css/app.css
+[Sat Jul 24 00:35:47 2021] 127.0.0.1:37654 [200]: /css/starter-template.css
+[Sat Jul 24 00:35:47 2021] 127.0.0.1:37658 [200]: /images/logo-icon.png
+[Sat Jul 24 00:35:47 2021] 127.0.0.1:37662 [200]: /favicon.ico
+[Sat Jul 24 00:35:48 2021] 127.0.0.1:37670 [200]: /css/app.css
+[Sat Jul 24 00:35:48 2021] 127.0.0.1:37674 [200]: /css/starter-template.css
+[Sat Jul 24 00:35:48 2021] 127.0.0.1:37678 [200]: /images/logo-icon.png
+[Sat Jul 24 00:35:48 2021] 127.0.0.1:37682 [200]: /favicon.ico
+[Sat Jul 24 00:35:48 2021] 127.0.0.1:37690 [200]: /css/app.css
+[Sat Jul 24 00:35:48 2021] 127.0.0.1:37694 [200]: /css/starter-template.css
+[Sat Jul 24 00:35:48 2021] 127.0.0.1:37698 [200]: /images/logo-icon.png
+[Sat Jul 24 00:35:48 2021] 127.0.0.1:37702 [200]: /favicon.ico
+[Sat Jul 24 00:35:48 2021] 127.0.0.1:37710 [200]: /css/app.css
+[Sat Jul 24 00:35:48 2021] 127.0.0.1:37714 [200]: /css/starter-template.css
+[Sat Jul 24 00:35:48 2021] 127.0.0.1:37718 [200]: /images/logo-icon.png
+[Sat Jul 24 00:35:48 2021] 127.0.0.1:37722 [200]: /favicon.ico
+[Sat Jul 24 00:36:46 2021] 127.0.0.1:37734 [200]: /css/app.css
+[Sat Jul 24 00:36:46 2021] 127.0.0.1:37738 [200]: /css/starter-template.css
+[Sat Jul 24 00:36:46 2021] 127.0.0.1:37742 [200]: /images/logo-icon.png
+[Sat Jul 24 00:36:46 2021] 127.0.0.1:37746 [200]: /favicon.ico
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37754 [200]: /css/app.css
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37758 [200]: /css/starter-template.css
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37762 [200]: /images/logo-icon.png
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37766 [200]: /favicon.ico
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37774 [200]: /css/app.css
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37778 [200]: /css/starter-template.css
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37782 [200]: /images/logo-icon.png
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37786 [200]: /favicon.ico
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37794 [200]: /css/app.css
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37798 [200]: /css/starter-template.css
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37802 [200]: /images/logo-icon.png
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37806 [200]: /favicon.ico
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37814 [200]: /css/app.css
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37820 [200]: /css/starter-template.css
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37824 [200]: /images/logo-icon.png
+[Sat Jul 24 00:36:47 2021] 127.0.0.1:37828 [200]: /favicon.ico
+[Sat Jul 24 00:37:02 2021] 127.0.0.1:37836 [200]: /css/app.css
+[Sat Jul 24 00:37:02 2021] 127.0.0.1:37840 [200]: /css/starter-template.css
+[Sat Jul 24 00:37:02 2021] 127.0.0.1:37844 [200]: /images/logo-icon.png
+[Sat Jul 24 00:37:02 2021] 127.0.0.1:37848 [200]: /favicon.ico
+[Sat Jul 24 00:37:04 2021] 127.0.0.1:37856 [200]: /css/app.css
+[Sat Jul 24 00:37:04 2021] 127.0.0.1:37860 [200]: /css/starter-template.css
+[Sat Jul 24 00:37:04 2021] 127.0.0.1:37864 [200]: /images/logo-icon.png
+[Sat Jul 24 00:37:04 2021] 127.0.0.1:37868 [200]: /favicon.ico
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37876 [200]: /css/app.css
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37880 [200]: /css/starter-template.css
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37884 [200]: /images/logo-icon.png
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37888 [200]: /favicon.ico
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37896 [200]: /css/app.css
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37900 [200]: /css/starter-template.css
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37904 [200]: /images/logo-icon.png
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37908 [200]: /favicon.ico
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37916 [200]: /css/app.css
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37920 [200]: /css/starter-template.css
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37924 [200]: /images/logo-icon.png
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37928 [200]: /favicon.ico
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37936 [200]: /css/app.css
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37940 [200]: /css/starter-template.css
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37944 [200]: /images/logo-icon.png
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37948 [200]: /favicon.ico
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37956 [200]: /css/app.css
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37960 [200]: /css/starter-template.css
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37964 [200]: /images/logo-icon.png
+[Sat Jul 24 00:37:05 2021] 127.0.0.1:37968 [200]: /favicon.ico
+Terminated
+Laravel development server started: http://127.0.0.1:8001
+Laravel development server started: http://127.0.0.1:8000
+[Tue Aug  3 00:22:33 2021] PHP 7.4.3 Development Server (http://127.0.0.1:8000) started
+[Tue Aug  3 00:22:53 2021] 127.0.0.1:46050 Accepted
+[Tue Aug  3 00:22:53 2021] 127.0.0.1:46054 Accepted
+[Tue Aug  3 00:22:55 2021] 127.0.0.1:46050 Closing
+[Tue Aug  3 00:22:55 2021] 127.0.0.1:46054 [200]: GET /css/app.css
+[Tue Aug  3 00:22:55 2021] 127.0.0.1:46058 Accepted
+[Tue Aug  3 00:22:55 2021] 127.0.0.1:46062 Accepted
+[Tue Aug  3 00:22:55 2021] 127.0.0.1:46054 Closing
+[Tue Aug  3 00:22:55 2021] 127.0.0.1:46058 [200]: GET /css/starter-template.css
+[Tue Aug  3 00:22:55 2021] 127.0.0.1:46066 Accepted
+[Tue Aug  3 00:22:55 2021] 127.0.0.1:46062 [200]: GET /js/app.js
+[Tue Aug  3 00:22:55 2021] 127.0.0.1:46066 [200]: GET /images/logo-icon.png
+[Tue Aug  3 00:22:55 2021] 127.0.0.1:46058 Closing
+[Tue Aug  3 00:22:55 2021] 127.0.0.1:46062 Closing
+[Tue Aug  3 00:22:55 2021] 127.0.0.1:46066 Closing
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46070 Accepted
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46074 Accepted
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46070 Closing
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46074 [200]: GET /css/app.css
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46080 Accepted
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46074 Closing
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46080 [200]: GET /css/starter-template.css
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46080 Closing
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46084 Accepted
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46088 Accepted
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46092 Accepted
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46084 [200]: GET /js/app.js
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46088 [200]: GET /images/logo-icon.png
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46092 [200]: GET /images/welcome-truck.png
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46084 Closing
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46088 Closing
+[Tue Aug  3 00:22:57 2021] 127.0.0.1:46092 Closing

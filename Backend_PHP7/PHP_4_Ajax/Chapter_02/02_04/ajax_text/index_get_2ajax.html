@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ajax JQuery get function</title>
+  </head>
+  <body>
+
+    <div id="main">
+      This is the original text when the page first loads.
+    </div>
+
+    <button id="ajax-button" type="button">Update content with Ajax</button>
+
+    <br>
+    <br>
+    <br>
+
+    <div id="main2">
+      I put it and see result second ajax request.
+    </div>
+
+    <button id="ajax-button2" type="button" onclick="">Update content with second Ajax request</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      var button = document.getElementById ("ajax-button");
+      var button2 = document.getElementById ("ajax-button2");
+
+      button.addEventListener("click", ()=>{ $.get ({
+        url:"new_content.txt",
+        dataType : "text",
+        success: function(data){
+          $("#main").html(data);
+          console.log("test1");
+        },
+      })});
+      button2.addEventListener("click", ()=>{ $.get ({
+        url:"new_content2.txt",
+        dataType : "text",
+        success: function(data){
+          $("#main2").html(data);
+          console.log("test2");
+  },
+})});
+
+    </script>
+
+  </body>
+</html>

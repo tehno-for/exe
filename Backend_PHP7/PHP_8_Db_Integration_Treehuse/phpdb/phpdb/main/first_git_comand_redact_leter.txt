@@ -1,0 +1,246 @@
+300  sudo apt install npm
+  301  npm -v
+  302  cd /var/www/html/nodejs/
+  303  ll
+  304  node app.js
+  305  node
+  306  htop
+  307  telnet
+  308  telnet httpbin.org 80
+  309  telnet httpbin.org 80 > cat llp.txt
+  310  telnet httpbin.org 80
+  311  htop
+  312  netstat
+  313  git
+  314  git --version
+  315  cd /var/www/html/mysite/
+  316  ll
+  317  cd
+  318  ll
+  319  cd -
+  320  cd ..
+  321  ll
+  322  cd nodejs/
+  323  ll
+  324  cd ..
+  325  cd tehno-for/
+  326  ll
+  327  gh repo clone tehno-for/tehno-for
+  328  git clone git@github.com:tehno-for/tehno-for.git
+  329  ll
+  330  git clone git@github.com:tehno-for/tehno-for.git
+  331  git@github.com: Permission denied (publickey).
+  332  sudo git clone git@github.com:tehno-for/tehno-for.git
+  333  ssh -T git@github.com
+  334  ssh-add -l -E sha256
+  335  ssh-keygen -t ed25519 -C "keoroot@gmail.com"
+  336  ssh-add -l -E sha256
+  337  ssh -T git@github.com
+  338  eval "$(ssh-agent -s)"
+  339  ssh-add ~/.ssh/id_ed25519
+  340  ssh -T git@github.com
+  341  sudo apt-get update
+  342  sudo apt-get install xclip
+  343  xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+  344  ssh -T git@github.com
+  345  sudo git clone git@github.com:tehno-for/tehno-for.git
+  346  xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+  347  sudo git clone git@github.com:tehno-for/tehno-for.git
+  348  ssh -T git@github.com
+  349  git remote -v
+  350  git remote set-url origin git@github.com:lut/EvolutionApp.git
+  351  git remote set-url origin git@github.com:tehno-for/tehno-for.git
+  352  git remote set-url
+  353  ssh -T git@github.com
+  354  git remote set-urlc
+  355  git remote set-url origin git@github.com:tehno-for/tehno-for.git
+  356  sudo git remote set-url origin git@github.com:tehno-for/tehno-for.git
+  357  git rev-parse --show-toplevel
+  358  git status
+  359  .git status
+  360  git status
+  361  ll
+  362  ssh-keygen -t ed25519 -C "keoroot@gmail.com"
+  363  history
+  364  cat /.ssh/id_ed25519.pub
+  365  cat ~/.ssh/id_ed25519.pub
+  366  ll ~/.ssh/
+  367  ssh-keygen -t -rsa -b 4096 -C "keoroot@gmail.com"
+  368  ssh-keygen -t rsa -b 4096 -C "keoroot@gmail.com"
+  369  cat ~/.ssh/mgk.pub
+  370  cat /home/rustam/.ssh/mgk.pub
+  371  ll /home/rustam/.ssh/
+  372  sudo ssh-keygen -t rsa -b 4096 -C "keoroot@gmail.com"
+  373  ll /home/rustam/.ssh/
+  374  ls -alh /root/.ssh/
+  375  sudo ls -alh /root/.ssh/
+  376  ll /home/rustam/.ssh/
+  377  ll /home/rustam/.ssh/known_hosts
+  378  ll /home/rustam/.ssh/known_hosts/
+  379  rm /home/rustam/.ssh/id_ed25519
+  380  rm /home/rustam/.ssh/id_ed25519.pub
+  381  ll /home/rustam/.ssh/
+  382  ssh-keygen -t rsa -b 4096 -C "keoroot@gmail.com"
+  383  ~ ls | grep mtest
+  384  cd
+  385  ls | grep mtest
+  386  ll
+  387  cd .ssh/
+  388  ll
+  389  ssh-keygen -t rsa -b 4096 -C "keoroot@gmail.com"
+  390  ll
+  391  cd -
+  392  cd /var/www/html/
+  393  ll
+  394  cd tehno-for/
+  395  ll
+  396  nano mtest.pub
+  397  cat mtest.pub
+  398  ssh -T git@github.com
+  399  cd ..
+  400  mv tehno-for/* /home/rustam/.ssh/
+  401  ll
+  402  cd tehno-for/
+  403  ll
+  404  ssh -T git@github.com
+  405  h
+  406  history
+  407  eval "$(ssh-agent -s)"
+  408  ssh-add /home/rustam/.ssh/mtest
+  409  ssh -T git@github.com
+  410  sudo git clone git@github.com:tehno-for/tehno-for.git
+  411  ssh -T git@github.com
+  412  sudo git remote set-url origin git@github.com:tehno-for/tehno-for.git
+  413  sudo git remote set-url git@github.com:tehno-for/tehno-for.git
+  414  git remote set-url
+  415  sudo git clone git@github.com:tehno-for/tehno-for.git
+  416  ssh -T git@github.com
+  417  git config url."ssh://git@github.com/".insteadOf https://github.com
+  418  git config url."ssh://git@github.com/".insteadOf https://github.com/
+  419  ssh -T git@github.com
+  420  ll
+  421  git status
+  422  git add
+  423  git add .
+  424  ll
+  425  git status
+  426  git add index.html
+  427  git status
+  428  git commit -m "my first git commit" -m "spesial for description box"
+  429  git push origin master
+  430  git push tehno-for master
+  431  git init --bare tehno-for.git
+  432  git push tehno-for master
+  433  ll
+  434  cd tehno-for.git/
+  435  ll
+  436  nano config
+  437  cd ..
+  438  git clone https://github.com/tehno-for/tehno-for.git
+  439  ll
+  440  cd tehno-for
+  441  ll
+  442  git status
+  443  cd ..
+  444  rm tehno-for/
+  445  rm -rm tehno-for/
+  446  rm -rf tehno-for/
+  447  ll
+  448  git clone https://github.com/tehno-for/tehno-for.git
+  449  ll
+  450  cd tehno-for/
+  451  ll
+  452  git status
+  453  git add index.php
+  454  git status
+  455  git commit -m "my real first commit"
+  456  git push origin master
+  457  git show-ref
+  458  git push -u origin master
+  459  it push origin HEAD:master
+  460  git push origin HEAD:master
+  461  git push -u origin master
+  462  git commit -m "my real first commit"
+  463  git status
+  464  git push -u origin master
+  465  git add .
+  466  git commit -m "my real first commit2"
+  467  git push  origin master
+  468  touch README
+  469  git add README
+  470  ll
+  471  git add .
+  472  git commit -m 'reinitialized files'
+  473  git push origin master --force
+  474  git push -u origin master
+  475  git init
+  476  git add .
+  477  git commit -m 'message'
+  478  git *create remote
+  479  git push -u origin master
+  480  git remote add origin "https://github.com/tehno-for/tehno-for"
+  481  git push -u origin master
+  482  git pull --rebase origin main
+  483  git pull --rebase origin master
+  484  git push -u origin master
+  485  git remote -v
+  486  git fetch origin
+  487  git push -u origin master
+  488  git master
+  489  git --help
+  490  htop
+  491  history
+  492  cd /var/www/html/
+  493  ll
+  494  cd tehno-for/
+  495  ll
+  496  git push -u origin master
+  497  git remote add origin git@github.com:tehno-for/mysite.git
+  498  git init
+  499  cd .git
+  500  ll
+  501  cd refs/
+  502  ll
+  503  cd ..
+  504  git branch -M main
+  505  git push -u origin main
+  506  git commit -m "test2"
+  507  git add .
+  508  git commit -m "test2"
+  509* git push -u or
+  510  git config credential.helper store
+  511  git push git@github.com:tehno-for/tehno-for
+  512  history
+  513  git commit -m "test3"
+  514  git add .
+  515  git commit -m "test3"
+  516  git push git@github.com:tehno-for/tehno-for
+  517  git commit -m "test4"
+  518  git push git@github.com:tehno-for/tehno-for
+  519  git commit -m "test4"
+  520  git commit -a
+  521  git commit .
+  522  git add index.php
+  523  git commit -m "test4"
+  524* git push
+  525  git push -u origin main
+  526  histoy
+  527  history
+  528  git config credential.helper store
+  529  git push -u origin main
+  530  git add test.txt
+  531  git commit -m "test5"
+  532  git push -u origin main
+  533  cd ..
+  534  cd mysite-
+  535  cd mysite_git/
+  536  echo "# mysite_git" >> README.md
+  537  ll
+  538  git init
+  539  ll
+  540  git add README.md
+  541  git commit -m "first commit"
+  542  git branch -M main
+  543  git remote add origin git@github.com:tehno-for/mysite_git.git
+  544  git push -u origin main
+  545  history | cat > first_git.txt

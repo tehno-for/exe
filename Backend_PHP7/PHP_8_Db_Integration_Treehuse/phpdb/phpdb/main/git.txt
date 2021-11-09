@@ -1,0 +1,8 @@
+git init -b main
+
+
+
+
+git remote add origin git@github.com:tehno-for/phpdb.git
+
+git remote -v

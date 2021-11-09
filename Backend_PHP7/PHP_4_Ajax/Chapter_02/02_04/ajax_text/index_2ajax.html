@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ajax Main</title>
+  </head>
+  <body>
+
+    <div id="main">
+      This is the original text when the page first loads.
+    </div>
+
+    <button id="ajax-button" type="button">Update content with Ajax</button>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="main2">
+      I put it and see result second ajax request.
+    </div>
+
+    <button id="ajax-button2" type="button" onclick="replaceText2()">Update content with second Ajax request</button>
+
+    <script>
+      var button = document.getElementById ("ajax-button");
+      var button2 = document.getElementById ("ajax-button2");
+
+      function replaceText() {
+        var xhr = new XMLHttpRequest();
+        target = document.getElementById("main");
+        xhr.open("GET", "new_content.txt", true);
+        xhr.send();
+
+        xhr.onreadystatechange = () => {
+          console.log("readyState: "+ xhr.readyState);
+          if(xhr.readyState == 2 ){
+              target.innerHTML = "Loading...";
+          }
+          if(xhr.readyState == 4 && xhr.status == 200){
+             target.innerHTML = xhr.responseText;
+          }
+        }
+
+      }
+      function replaceText2() {
+        var xhr2 = new XMLHttpRequest();
+        target = document.getElementById("main2");
+        xhr2.open("GET", "new_content2.txt", true);
+        xhr2.send();
+
+        xhr2.onreadystatechange = () => {
+          console.log("readyState: "+ xhr2.readyState);
+          if(xhr2.readyState == 2 ){
+              target.innerHTML = "Loading...";
+          }
+          if(xhr2.readyState == 4 && xhr2.status == 200){
+             target.innerHTML = xhr2.responseText;
+          }
+        }
+
+      }
+
+      button.addEventListener("click", replaceText);
+  
+    </script>
+
+  </body>
+</html>

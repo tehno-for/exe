@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ajax JQuery get function</title>
+  </head>
+  <body>
+
+    <div id="main">
+      This is the original text when the page first loads.
+    </div>
+
+    <button id="ajax-button" type="button">Update content with Ajax</button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      var button = document.getElementById ("ajax-button");
+      var t = "#main";
+      button.addEventListener("click", ()=>{ $.get ({
+        url:"new_content.txt",
+        dataType : "text",
+        success: function(data){
+          $(t).html(data);
+          console.log("test");
+        },
+      })});
+    </script>
+
+  </body>
+</html>

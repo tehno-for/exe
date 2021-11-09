@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ajax Zip Code</title>
+    <style>
+      #entry {
+        margin: 2em 1em;
+      }
+      #location {
+        margin: 1em;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="entry">
+      Zip code: <input id="zipcode" type="text" name="zipcode" />
+      <button id="ajax-button" type="button">Submit</button>
+    </div>
+
+    <div id="location">
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      let adr = document.querySelector('input#zipcode');
+      var button = document.getElementById ("ajax-button");
+
+      button.addEventListener("click", ()=>{ $.get ({
+        url: 'https://maps.googleapis.com/maps/api/geocode/json?address=' + adr.value + "&key=AIzaSyB4chXrXx7f5QUbutbeu65JyIS6xDYsBL0",
+        data: {},
+        dataType : "json",
+        success: function(data){
+          $("#location").html(data.results[0].formatted_address);
+        },
+      })});
+    </script>
+
+  </body>
+</html>
