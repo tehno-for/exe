@@ -1,0 +1,82 @@
+SQL basic                                                        |
+SELECT [colum] FROM [table] WHERE [colum] > 50                   |
+_________________________________________________________________|
+
+
+   
+	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+SELECT type, SUM(calories) AS total_calories FROM exercise_logs
+    GROUP BY type
+    HAVING total_calories > 150
+AS -new name
+
+SELECT type, SUM(calories) AS total_calories FROM exercise_logs
+    WHERE calories > 150
+    GROUP BY type;
+	/* where => having */
+SELECT type, SUM(calories) AS total_calories FROM exercise_logs
+    GROUP BY type
+    HAVING total_calories > 150;
+H
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/* My first SQL program */
+/* Put your data in here and query it! */
+CREATE TABLE adv_market 
+(id INTEGER PRIMARY KEY AUTOINCREMENT,
+name TEXT,
+type TEXT,
+contract TEXT,
+CPC REAL,
+start_price INTEGER);
+INSERT INTO adv_market(id, name, type, contract,CPC, start_price) VALUES (1, "azadqadin.az", "woman", "excl", 0.90, 400);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (2, "facebok.com", "sosial network", "not", 0.15, 0);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (3, "instagram.com", "sosial network", "not", 0.2, 0);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (4, "youtube.com", "video","not" ,0.5, 0 );
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (5, "dadli.az","cook","excl",1.5 , 300 );
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (6,  "qafqazinfo.az","news","not", 1.2, 600);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (7, "day.az","news","not", 3,  1500);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (8, "yayimla.az","ad-network","excl", 0.1,  0);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (9, "apa.az","news","not", 1.5,  800);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (10, "baku.ws","entartaiment","not", 1,  600);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (11, "google.com","seach","not", 0.5,  0);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (12, "google.com","ad-network","not", 0.1,  0);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (13, "ann.az","news","excl", 1.5,  700);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (14, "disput.az","forum","not", 2.5,  1000);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (15, "turbo.az","auto","not", 2.5,  2000);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (16, "lalafo.az","classifid","excl", 1,  800);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (17, "tap.az","classifid","not", 1,  800);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (18, "contact.az","news","not", 3,  800);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (19, "haqqin.az","news","not", 1,  900);
+INSERT INTO adv_market(id, name, type, contract,CPC,start_price) VALUES (20, "qadin.az","woman","excl", 0.8,  400);
+SELECT * FROM adv_market;
+SELECT name FROM adv_market WHERE start_price = 0 AND CPC < 1;
+SELECT * FROM adv_market WHERE contract =" excl" OR CPC < 1 ORDER BY CPC;
+SELECT SUM(start_price) AS for_start_compain FROM adv_market;
+SELECT name,type, CPC, ROUND(AVG(start_price)) AS price FROM adv_market GROUP BY type;
+SELECT name AS national_sites, start_price, 
+    CASE 
+         WHEN start_price <= 0 THEN "grate far start" 
+         WHEN start_price < 500 THEN "for almost customers"
+         WHEN start_price < 1000 THEN "may by - may dy" 
+         ELSE "they are craisy"
+    END as "description"
+    FROM adv_market WHERE name LIKE "%.az%" AND start_price <= 1500 ORDER BY description;
+
+SELECT name AS sites FROM adv_market 
+   WHERE start_price < 500  
+   GROUP BY type;
+SELECT type, SUM(start_price) AS expencies
+FROM adv_market 
+   GROUP BY type
+   HAVING expencies > 0;
+   SELECT id, name, MIN(CPC) AS CPC FROM adv_market GROUP BY type;
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Relational guery in SQL
+   _________________________________________________________________|
+

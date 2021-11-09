@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>person - let and Const</title>
+  </head>
+  <body>
+    <h1>Person</h1>
+    <script>
+       const person = {
+            first_name: "Andrew",
+            role: "Teacher"
+        }
+    
+        function personDescription(person) {
+            var description = person.first_name;
+            if(person.role) {
+                description = description + " is a ";
+                description = description + person.role;
+            }
+            console.log(description);
+        }
+    
+        personDescription(person);
+    </script>
+  </body>
+</html>

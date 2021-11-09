@@ -1,0 +1,251 @@
+Java command
++++++++++++++++++++++++++++++++++++++
+Terrific Text: Part One
+textSize(16);
+fill(108, 45, 204);
+text("I like puppies and guitars and coding.", 80, 154);
+________
+var draw = function() {
+    howBig = howBig + 1;
+    textSize(howBig);
+    background(0, 238, 255);
+    var myName = "Sophia";
+    var message = myName + "!!!";
+    text(message, mouseX, mouseY);
+};
+++++++++++++++++++++++++++++++++++++++
+Functions
+var rustam = function() {
+var textX = random(0, 300);
+var textY = random(0, 300);
+var yourName = "Rustam";
+
+fill(255, 0, 0);
+textSize(30);
+text("Hiiii, " + yourName, textX, textY);
+};
+rustam();
+___________
+Function Parameters
+var drawMole = function(moleX,moleY) {
+    noStroke();
+    fill(125, 93, 43);
+    ellipse(moleX, moleY, 60, 60); // face
+    fill(255, 237, 209);
+    ellipse(moleX, moleY+10, 33, 28); 
+    fill(0, 0, 0);
+    ellipse(moleX-10, moleY-15, 10, 10); // eyes
+    ellipse(moleX+10, moleY-15, 10, 10);
+    ellipse(moleX, moleY-5, 10, 10); // nose
+    ellipse(moleX, moleY+10, 20, 5); // mouth
+};
+background(52, 168, 83); // green grass
+fill(0, 0, 0);
+ellipse(200, 200, 100, 30); // holes!
+ellipse(70, 119, 100, 30);
+ellipse(300, 60, 100, 30);
+ellipse(297, 350, 100, 30);
+drawMole(200,180);
+drawMole(300,40);
+drawMole(300,330);
+drawMole(75,100);
+___________
+Function Return Values
+    ================================
+ var totalDonuts = 3 * 365 * numYears;
+    return totalDonuts;
+	
+	return 3 * 365 * numYears;
+	====================
+var multiply = function(num1, num2) {
+    return num1*num2;
+};
+fill(255, 0, 0);
+text("15 * 3 is " + multiply(15, 3), 10, 80);
+____________________________
+Local and Global Variables
+
+++++++++++++++++++++++++++++
+If Statements
+// position of the ball
+var y = 0;
+// how far the ball moves every time
+var speed = 2;
+
+draw = function() {
+    background(127, 204, 255);
+    
+    if (y > 400) {speed = -2;}
+    if (y < 10)  {speed = 2;}
+    fill(66, 66, 66);
+    ellipse(200, y, 50, 50);
+
+    // move the ball
+    y = y + speed;
+};
+____________________________
+Paynting Apps
+draw = function() {
+    noStroke();
+    fill(201, 34, 34);
+    if (mouseIsPressed){     //main function in program
+    ellipse(mouseX, mouseY, 20, 20);
+    }
+};
+______________________________
+background(66, 17, 143);
+
+var number = 48;
+
+if (number <= 48) {
+    // top left
+    fill(255, 255, 0);
+    ellipse(100, 100, 100, 100);
+}
+
+if (number >= 48) {
+    // top right
+    fill(0, 225, 255);
+    ellipse(300, 100, 100, 100);
+}
+
+if (number === 48) {
+    // bottom left
+    fill(255, 25, 117);
+    ellipse(100, 300, 100, 100);
+}
+
+if (number !== 48) {
+    // bottom right
+    fill(0, 255, 68);
+    ellipse(300, 300, 100, 100);
+}
+______________________________
+Logical operator
+&& and
+|| or
+draw = function() {
+    fill(0, 255, 68); // start color
+    rect(0, 0, 400, 200);  // the button
+    if (mouseIsPressed && mouseY < 200 ) {
+        fill(255, 0, 0);
+    }
+    rect(0, 0, 400, 200);
+    // The button text
+    fill(0, 0, 0);
+    textSize(30);
+    text("Press me!", 145, 115);
+    
+};
+_______________________________
+If/Else - Part 1
+if (integer === 0) {
+    fill(132, 0, 255);
+} 
+else {
+    fill(217, 255, 0);
+}
+
+______________________________
+// generate a random number between 0 and 1
+var number = random(0, 3);
+
+// display the text
+fill(0, 0, 0);
+textSize(100);
+text(number, 100, 110);
+
+// set the coin color
+if (number < 1) {
+    fill(111, 0, 255);
+}
+else if (number < 2) {
+    fill(255, 255, 0);
+}
+else if (number < 3) {
+    fill(255, 0, 0);
+}
+
+// draw the "coin"
+ellipse(200, 200, 100, 100);
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+While Loops
+while(y < 279) {
+    text(message + y, 30, y);
+    y += 50;
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Arrays!
+
+var myFriends = ["Sophia", "John", "Leif", "Winston", "OhNoes Guy", "Sal"];
+
+fill(255, 0, 0);
+
+var friendNum = 0;
+while(friendNum < myFriends.length) {
+    text(myFriends[friendNum], 10, 30+friendNum*30);
+    friendNum++;
+}
+
+for(var friendNum = 0; friendNum < myFriends.length; friendNum++) {
+    text(myFriends[friendNum], 87, 30+friendNum*30);
+}
+_______________________________
+var xPositions = [100,200,300];
+var yPositions = [200,300,300];
+
+var drawStars = function() {
+    background(9, 5, 59);
+    imageMode(CENTER);
+    
+    for (var i = 0; i < yPositions.length; i++) {
+        image(getImage("space/star"), xPositions[i], yPositions[i], 30, 30);
+    }
+};
+
+mouseClicked = function() {
+    xPositions.push(mouseX);
+    yPositions.push(mouseY);
+    drawStars();
+};
+_______________________________
+
+var xPositions = [0];
+var yPositions = [0];
+
+draw = function() {
+    background(204, 247, 255);
+    var m = random(0,400); 
+    xPositions.push(m);
+    yPositions.push(m);
+    for (var i = 0; i < xPositions.length; i++) {
+        noStroke();
+
+        fill(0, 200, 255);
+   
+        ellipse(xPositions[i], yPositions[i], 10, 10);
+        yPositions[i] += 5;
+        }
+    
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

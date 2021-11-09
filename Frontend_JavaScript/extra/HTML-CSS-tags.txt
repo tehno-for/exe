@@ -1,0 +1,111 @@
+<>
+HTML tags
+< >
+<head>all unvisible content</head>
+<body>all visible  content</body>
+<em>font words<em>
+<strong>bold font</strong>
+<!--This is a comment. -->
+<h1>-</h6>
+<p>paragraphs</p>
+<br> brake line
+
+<ul>order
+<li>simple order</li>
+<ol>with number</ol>
+</ul>
+
+<img src="url" alt="coment" width="pixels" height="">
+____________________________________________________________________________________________
+<h!--HTML tables-->
+<table>
+  <thead>
+    <tr>
+	   <th></th>
+	   <th></th>
+	   <th></th>
+	 </tr>
+  </thead>
+  <tboady>
+    <tr>
+	   <td></td>
+	   <td></td>
+	   <td></td>
+	 </tr>
+  </tboady>
+</table>
+____________________________________________________________________________________________
+
+<span>Line container</span>
+<div>Box container</div>
+
+     margin
+__________________
+|    padding     |
+|                |
+|   content      |
+|                |
+|________________|
+
+____________________________________________________________________________________________
+CSS
+<style>
+#idexample {
+background-color: rgb(0,0,0);
+overflow-y:auto;     hidden, visible,  -text work
+overflow-x:auto;
+width:70%;
+height:200px;
+color: rgc(0,0,0);
+font-family: cursive;
+font-size:1.3em;
+font-weight: bold;
+text-align: center;
+position:absolute;
+top:110px;}
+
+CSS box model
+.xxx {
+margin: 10px 0px 10px 5px;
+border: 1 px solid rgb();
+padding:;
+}
+
+CSS position
+#xxx {
+position
+top
+bottom
+left
+right
+}
+CSS floating element
+
+
+
+
+.classexample {
+font-family: sant-serif;
+position:z-index
+font-weight: underline;
+font-style: italic;
+line-height: 1.5em;
+}
+____________________________________________________________________________________________
+class=one two
+h1.class use class for h1 specific
+table .class wide rule
+
+CSS dynamic pseudo-classes
+a:link
+a:visited
+a:hover
+a:focus
+a:active
+
+</style>
+
+Using inline CSS styles
+<h1 style="background: salmon;">Salmon Mania</h1>
+external stylesheets
+link  rel='stylesheet' type"text/css href='//fonts.googleapis.com/css?family=Open+Sans:600'>

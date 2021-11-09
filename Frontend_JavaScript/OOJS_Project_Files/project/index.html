@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript </title>
+
+  </head>
+  <body>
+    <h1>Test</h1>
+    <main>
+
+    </main>
+
+    <script>
+    const player1 = {
+        name: 'Ashley',
+        color: 'purple',
+        isTurn: true,
+        play: function(){
+            if (this.isTurn) {
+                console.log(`${this.name} is now playing!`);
+             }
+        }
+    }
+
+    const player2 = {
+        name: 'Guil',
+        color: 'red',
+        isTurn: false,
+        play: function(){
+            if (this['isTurn']) {
+                console.log(`${this['name']} is now playing!`);
+            }
+        }
+    }
+
+
+
+
+
+    </script>
+  </body>
+</html>

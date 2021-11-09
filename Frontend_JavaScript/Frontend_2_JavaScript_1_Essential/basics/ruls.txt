@@ -1,0 +1,3 @@
+1. Java Script is case sensetive.
+2. Use camel cases
+3.
