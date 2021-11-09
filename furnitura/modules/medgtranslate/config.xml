@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>medgtranslate</name>
+    <displayName><![CDATA[Free module to translate your shop]]></displayName>
+    <version><![CDATA[1.2.0]]></version>
+    <description><![CDATA[Use Google to translate your store live &lt;div style=&quot;overflow:hidden;width:364px;height:45px;display:block&quot;&gt;&lt;iframe src=&quot;https://adsense.mediacom87.biz&quot; width=&quot;728&quot; height=&quot;90&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:none;-ms-zoom: 0.5;-moz-transform: scale(0.5);-moz-transform-origin: 0 0;-o-transform: scale(0.5);-o-transform-origin: 0 0;-webkit-transform: scale(0.5);-webkit-transform-origin: 0 0;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;]]></description>
+    <author><![CDATA[Mediacom87]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

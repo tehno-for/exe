@@ -1,0 +1,174 @@
+<pos_static_blocks>
+<!-- static block configuration -->
+	<block>
+		<id_posstaticblock>1</id_posstaticblock>
+		<identify>about_us</identify>
+		<hook_position>displayFooterBefore</hook_position>
+		<name_module></name_module>
+		<hook_module>0</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<is_default>0</is_default>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>2</id_posstaticblock>
+		<identify>payment_block</identify>
+		<hook_position>displayBlockFooter1</hook_position>
+		<name_module></name_module>
+		<hook_module>0</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<is_default>0</is_default>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>3</id_posstaticblock>
+		<identify>staticblock_link </identify>
+		<hook_position>displayFooterAfter</hook_position>
+		<name_module></name_module>
+		<hook_module>0</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<is_default>0</is_default>
+		<showhook>1</showhook>
+	</block>
+	
+<!-- block language configuration -->	
+	<block_language>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>About Us</title>
+		<description>
+			 <![CDATA[
+					<div class="about_us">
+					<div class="logo_footer"><a href="#"><img src="/pos_optima2/img/cms/logo_footer.png" alt="" /></a></div>
+					<div class=" footer-info">
+					<div class="desc_footer">
+					<p><i class="pe-7s-home"></i> 123 Main Street, Anytown, CA 12345 - USA.</p>
+					<p><i class="pe-7s-call"></i> (0) 800 456 789<span>yourmail@domain.com</span></p>
+					<p><i class="pe-7s-clock"></i> Working time: 9.00 -21.00</p>
+					</div>
+					</div>
+					</div>
+			 ]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Payment Block</title>
+		<description>
+			 <![CDATA[
+				<div class="footer-bootm">
+				<div class="container">
+				<div class="row">
+				<div class="col col-lg-6 col-md-12 col-xs-12">
+				<p>Copyright 2019 <a href="https://posthemes.com/">Posthemes</a>. All Rights Reserved</p>
+				</div>
+				<div class="col col-lg-6 col-md-12 col-xs-12">
+				<div class="payment"><img src="/pos_optima2/img/cms/payment.png" alt="" class="img-responsive" /></div>
+				</div>
+				</div>
+				</div>
+				</div>
+			 ]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Staticblock Link </title>
+		<description>
+			 <![CDATA[
+				<div class="links">
+				<ul class="link-follow-foter">
+				<li class="first"><a class="twitter fa fa-twitter" title="Twitter" href="https://twitter.com/posthemes"><span>twitter</span></a></li>
+				<li><a class="wifi fa fa-rss" title="Google" href="#"><span>wifi</span></a></li>
+				<li><a class="google fa fa-google-plus" title="Google" href="#"><span>google</span></a></li>
+				<li><a class="facebook fa fa-facebook" title="Facebook" href="https://www.facebook.com/posthemes"><span>facebook</span></a></li>
+				<li><a class="youtube fa fa-youtube" title="Youtube" href="https://www.youtube.com/user/posthemes"><span>youtube </span></a></li>
+				</ul>
+				</div>
+			 ]]>
+		</description>
+	</block_language>
+	
+	
+	<block_language>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>About Us</title>
+		<description>
+			 <![CDATA[
+					<div class="about_us">
+					<div class="logo_footer"><a href="#"><img src="/pos_optima2/img/cms/logo_footer.png" alt="" /></a></div>
+					<div class=" footer-info">
+					<div class="desc_footer">
+					<p><i class="pe-7s-home"></i> 123 Main Street, Anytown, CA 12345 - USA.</p>
+					<p><i class="pe-7s-call"></i> (0) 800 456 789<span>yourmail@domain.com</span></p>
+					<p><i class="pe-7s-clock"></i> Working time: 9.00 -21.00</p>
+					</div>
+					</div>
+					</div>
+			 ]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Payment Block</title>
+		<description>
+			 <![CDATA[
+				<div class="footer-bootm">
+				<div class="container">
+				<div class="row">
+				<div class="col col-lg-6 col-md-12 col-xs-12">
+				<p>Copyright 2019 <a href="https://posthemes.com/">Posthemes</a>. All Rights Reserved</p>
+				</div>
+				<div class="col col-lg-6 col-md-12 col-xs-12">
+				<div class="payment"><img src="/pos_optima2/img/cms/payment.png" alt="" class="img-responsive" /></div>
+				</div>
+				</div>
+				</div>
+				</div>
+			 ]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Staticblock Link </title>
+		<description>
+			 <![CDATA[
+				<div class="links">
+				<ul class="link-follow-foter">
+				<li class="first"><a class="twitter fa fa-twitter" title="Twitter" href="https://twitter.com/posthemes"><span>twitter</span></a></li>
+				<li><a class="wifi fa fa-rss" title="Google" href="#"><span>wifi</span></a></li>
+				<li><a class="google fa fa-google-plus" title="Google" href="#"><span>google</span></a></li>
+				<li><a class="facebook fa fa-facebook" title="Facebook" href="https://www.facebook.com/posthemes"><span>facebook</span></a></li>
+				<li><a class="youtube fa fa-youtube" title="Youtube" href="https://www.youtube.com/user/posthemes"><span>youtube </span></a></li>
+				</ul>
+				</div>
+			 ]]>
+		</description>
+	</block_language>
+	
+<!-- block shop configuration -->
+	<block_shop>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	
+</pos_static_blocks>

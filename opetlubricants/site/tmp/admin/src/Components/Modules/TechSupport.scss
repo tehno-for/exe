@@ -1,0 +1,44 @@
+.support-blocks {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1;
+    min-height: 180px;
+    padding: .5rem;
+    background-color: #f4f8f7;
+    -webkit-box-shadow:  2px 2px 3px  rgba(0,0,0,0.25);
+    -moz-box-shadow:  2px 2px 3px  rgba(0,0,0,0.25);
+    box-shadow:  2px 2px 3px rgba(0,0,0,0.25);
+
+    svg {
+      height: 50px;
+    }
+
+    .link {
+      text-decoration: none;
+      color: #888;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
+
+.tech-support-edit {
+  margin-top: 1rem;
+  padding: 2rem;
+
+  input {
+    margin-bottom: .5rem;
+  }
+
+  .btn {
+    margin: 1rem;
+  }
+}

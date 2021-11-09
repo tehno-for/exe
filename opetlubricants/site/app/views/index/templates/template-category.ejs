@@ -1,0 +1,14 @@
+<script type="text/template" id="template-category">
+    {{each categories}}
+    <li>
+        <a href="javascript:;" class="flex" data-id="${id}" data-main-category-id="${$data.id}">
+            <i class="${icon}">
+                <u>
+                    {{html svg}}
+                </u>
+            </i>
+            <span>${name}</span>
+        </a>
+    </li>
+    {{/each}}
+</script>

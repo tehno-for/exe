@@ -1,0 +1,24 @@
+<!--BOX PICTURE AREA-->
+<section class="box-container container with-box-footer-menu img_area">
+    <header class="box-header">
+        <h2 class="opet-reg"><%=data.translations.sitetextmainservices%></h2>
+    </header>
+    <div class="row about_area_in_ lg-flex-direction-row">
+
+        <% for (const service of data.entities.services) {
+            const extraParam = service.link && service.link.substr(0,4)==='http' ? ' target="_blank"' : '';
+        %>
+        <div class="about_left_img">
+            <div class="about_table">
+                <div class="about_table_cell">
+                    <a href="<%=service.link ? service.link : `/article/${service.id}-${service.urlName}.html`%>"<%=extraParam%>>
+                        <img src="<%=service.mainImage%>">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <% } %>
+
+    </div>
+</section>
+<!--BOX PICTURE AREA-->

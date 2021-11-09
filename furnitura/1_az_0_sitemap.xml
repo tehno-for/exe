@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://furnitura.az/index.php</loc>
+
+<changefreq>weekly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=28&amp;id_product_attribute=0&amp;rewrite=pncr-qolu-roto-line&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T01:39:57+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/3/5/35-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[Pəncərə qolu Roto Line]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=30&amp;id_product_attribute=0&amp;rewrite=pncr-qolu-roto-swing&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T01:39:57+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/4/2/42-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[Pəncərə qolu Roto Swing]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=31&amp;id_product_attribute=0&amp;rewrite=pvx-v-alueminum-konstruksiyalr-ucun-usaq-thlueksizlik-klidi&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T01:39:57+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/4/9/49-large_default.jpg</image:loc>
+<image:caption><![CDATA[qqsqsqs]]></image:caption>
+<image:title><![CDATA[PVX və alüminum konstruksiyalr ucun uşaq təhlükəsizlik klidi]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=32&amp;id_product_attribute=0&amp;rewrite=pvx-v-alueminum-konstruksiyalar-uecuen-usaq-thlueksizlik-klidi&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T01:39:57+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/5/3/53-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[PVX və alüminum konstruksiyalar ücün uşaq təhlükəsizlik klidi]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=33&amp;id_product_attribute=0&amp;rewrite=&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T01:39:57+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/5/7/57-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[PVX və alüminum konstruksiyalar ücün uşaq təhlükəsizlik klidi]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=34&amp;id_product_attribute=0&amp;rewrite=&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T01:39:58+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/6/5/65-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[PVX konstruksiyalar üçün alüminium pəncərə qolu klidli]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=35&amp;id_product_attribute=0&amp;rewrite=pvx-konstruksiyalar-uecuen-alueminium-pncr-qolu-rehau&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T01:39:58+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/6/2/62-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[PVX konstruksiyalar üçün alüminium pəncərə qolu REHAU]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=36&amp;id_product_attribute=0&amp;rewrite=pvx-konstruksiyalar-uecuen-aluminium-pncr-qolu-schuco-&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T01:39:58+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/7/0/70-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[PVX konstruksiyalar üçün aluminium pəncərə qolu Schuco]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=37&amp;id_product_attribute=0&amp;rewrite=pvx-konstruksiyalar-uecuen-aluminium-qapi-qolu-roto&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-12T20:10:53+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/7/3/73-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[PVX konstruksiyalar üçün aluminium qapı qolu Roto]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=39&amp;id_product_attribute=0&amp;rewrite=pvx-konstruksiyalar-uecuen-aluminium-pncr-qolu-hoppe&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T19:49:56+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/7/8/78-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[PVX konstruksiyalar üçün aluminium pəncərə qolu Hoppe]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=40&amp;id_product_attribute=0&amp;rewrite=sues-qapi-qollari&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T19:49:55+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/8/3/83-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[ŞÜŞƏ QAPI QOLLARI]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=41&amp;id_product_attribute=0&amp;rewrite=&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T19:49:53+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/9/5/95-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[ŞÜŞƏ QAPI KILIDLƏR]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=42&amp;id_product_attribute=0&amp;rewrite=qapi-baglayicilari&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T19:49:52+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/0/3/103-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[QAPI BAĞLAYICILARI]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=43&amp;id_product_attribute=0&amp;rewrite=&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T19:49:51+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/0/6/106-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[QAPI BAĞLAYICILARI]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=44&amp;id_product_attribute=0&amp;rewrite=&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T19:49:49+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/0/5/105-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[QAPI BAĞLAYICILARI]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=45&amp;id_product_attribute=0&amp;rewrite=qapi-baglayicilari&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-14T11:45:32+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/0/9/109-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[QAPI BAĞLAYICILARI]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=46&amp;id_product_attribute=0&amp;rewrite=qapi-baglayicilari&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-14T11:33:31+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/1/1/111-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[QAPI BAĞLAYICILARI]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=47&amp;id_product_attribute=0&amp;rewrite=&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T19:49:45+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/1/3/113-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[QAPI BAĞLAYICILARI]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=48&amp;id_product_attribute=0&amp;rewrite=qapi-baglayicilari&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-14T11:39:07+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/1/5/115-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[QAPI BAĞLAYICILARI]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=49&amp;id_product_attribute=0&amp;rewrite=&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T19:49:43+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/1/7/117-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[QAPI BAĞLAYICILARI]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=50&amp;id_product_attribute=0&amp;rewrite=&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-10T19:49:41+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/1/9/119-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[QAPI BAĞLAYICILARI]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=52&amp;id_product_attribute=0&amp;rewrite=&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-11T14:25:26+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/2/2/122-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[FOTOSEL QAPILAR]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=53&amp;id_product_attribute=0&amp;rewrite=fotosel-qapilar&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-11T14:25:27+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/2/9/129-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[Fotosel Qapılar]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=54&amp;id_product_attribute=0&amp;rewrite=&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-11T14:25:27+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/3/2/132-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[KAPI KİLİT KARŞILIĞI AYARLI ÜNİVERSAL KISA ve Uzun]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=61&amp;id_product_attribute=0&amp;rewrite=plastik-pencere-mentesesi&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-17T12:38:06+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/3/8/138-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[Plastik Pencere Menteşesi]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=62&amp;id_product_attribute=0&amp;rewrite=plastik-pencere-mentesesi&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-14T13:13:23+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/3/9/139-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[Plastik Pencere Menteşesi]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=63&amp;id_product_attribute=0&amp;rewrite=&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-11T14:25:31+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/4/3/143-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[Pəncərə mexaniki uzaqdan idare etmə qol sisteme]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=64&amp;id_product_attribute=0&amp;rewrite=qapi-klidi-enigma&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-11T14:25:31+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/4/5/145-large_default.jpg</image:loc>
+<image:caption><![CDATA[]]></image:caption>
+<image:title><![CDATA[Qapı klidi Enigma]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_product=65&amp;id_product_attribute=0&amp;rewrite=pvc-konstruksiyalar-uecuen-havalandirma-sistemi&amp;controller=product&amp;id_lang=2</loc>
+<lastmod>2020-02-14T12:11:48+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/p/1/4/8/148-large_default.jpg</image:loc>
+<image:caption><![CDATA[Bu pəncərə filtri dəyişdirilə bilən filtr elementi olan kompakt plastik bir cihazdır. Pəncərə profilinə quraşdırılıb və dərhal işə başlayır - havanı təmizləmək və pəncərələri bağlı olsa da otaqda rahat bir mikroiqlim yaratmaq. 2014-cü ildən bu yana 11 ölkənin 78 şəhərində 100.000 pəncərə filtrləri istehsal və quraşdırdıq. Bir çox müştəri dostların və qohumların tövsiyəsi ilə onları bizdən sifariş edir.]]></image:caption>
+<image:title><![CDATA[Pəncərə üçün havalandırma]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_category=7&amp;controller=category&amp;id_lang=2</loc>
+<lastmod>2019-12-02T17:28:24+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/c/7-category_default.jpg</image:loc>
+<image:caption><![CDATA[Notebooks, agendas, office accessories and more. Everything you need to combine the pleasant and the useful, either at work or at home. ]]></image:caption>
+<image:title><![CDATA[Stationery]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_category=8&amp;controller=category&amp;id_lang=2</loc>
+<lastmod>2019-12-02T17:28:24+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+<image:image>
+<image:loc>https://furnitura.az/img/c/8-category_default.jpg</image:loc>
+<image:caption><![CDATA[Details matter! Liven up your interior with our selection of home accessories. ]]></image:caption>
+<image:title><![CDATA[Home Accessories]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://furnitura.az/index.php?id_category=10&amp;controller=category&amp;id_lang=2</loc>
+<lastmod>2020-02-14T11:59:08+04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+</urlset>

@@ -1,0 +1,11 @@
+
+// Generate keygen
+ssh-keygen -t rsa -b 4096 -C "keoroot@gmail.com"
+
+// Identificate SSH session
+eval "$(ssh-agent -s)"
+
+// Identificate keygen
+add-ssh ~/key directory
+
+//

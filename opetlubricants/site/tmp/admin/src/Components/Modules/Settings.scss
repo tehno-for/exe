@@ -1,0 +1,37 @@
+.settings {
+  &__header {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+  }
+
+  &__page-item {
+    cursor: pointer;
+
+    &:not(:last-of-type) {
+      margin-right: 0.5rem;
+    }
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  &__description {
+    max-width: 35%;
+  }
+
+  &__value {
+    max-width: 35%;
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}

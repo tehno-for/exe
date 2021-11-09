@@ -1,0 +1,25 @@
+<% const content = data.entities.about ? data.entities.about[0] : {} %>
+
+<!--ABOUT US AREA-->
+<section class="box-container container with-box-footer-menu ">
+    <header class="box-header">
+        <h2 class="opet-reg"><%=data.translations.sitetextmainaboutus%></h2>
+    </header>
+    <div class="row about_area_in_ lg-flex-direction-row">
+        <div class="about_left_img">
+            <div class="about_table">
+                <div class="about_table_cell">
+                    <img src="<%=content.mainImage%>">
+                </div>
+            </div>
+        </div>
+
+        <div class="about_right_text">
+            <h2>
+                <%=content.title%>
+            </h2>
+            <%-content.body%>
+        </div>
+    </div>
+</section>
+<!--ABOUT US AREA-->

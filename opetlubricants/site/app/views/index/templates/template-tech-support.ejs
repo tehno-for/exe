@@ -1,0 +1,21 @@
+
+<script type="text/template" id="template-tech-support">
+    <div class="expert-box flex">
+        <div class="expert-box-icon flex">
+            <div>
+                <i class="isb-engine-oils fill-gray-800"><u data-svg="${name}"></u></i>
+                <b class="roboto-reg color-gray-800">${translations[0].name}</b>
+            </div>
+        </div>
+
+        <div class="expert-box-content">
+
+            {{each(prop2, val2) products}}
+            <a href="javascript:;" data-val="${val2.translations[0].description}" class="btn border color-blue-300 pop_in_text">
+                <span>${val2.translations[0].name}</span>
+            </a>
+            {{/each}}
+
+        </div>
+    </div>
+</script>

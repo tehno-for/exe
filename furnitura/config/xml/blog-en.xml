@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/en/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/en/blog/feed.xml</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>How to support the growth of a pure player?</title>
+    <link>https://www.prestashop.com/en/blog/growth-pure-player</link>
+    <description>For the past 6 years, Evolutive Group has been supporting its client So Inside, an expert dealer in designer furniture at the right price.</description>
+     <pubDate>Fri, 06 Aug 2021 15:46:48 +0200</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/growth-pure-player</guid>
+  </item>
+  <item>
+    <title>Adding a product configurator to your PrestaShop store</title>
+    <link>https://www.prestashop.com/en/blog/product-configurator-prestashop</link>
+    <description> </description>
+     <pubDate>Mon, 26 Jul 2021 17:32:30 +0200</pubDate>
+ <dc:creator>Renaud Teasdale</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/product-configurator-prestashop</guid>
+  </item>
+  <item>
+    <title>Web performance: How to unleash the full potential of your ecommerce site?</title>
+    <link>https://www.prestashop.com/en/blog/ecommerce-performance-potential</link>
+    <description>We had the opportunity to talk with Noël Peix Boisdon, Product Manager within the new PrestaShop Platform team, about the </description>
+     <pubDate>Tue, 20 Jul 2021 16:32:54 +0200</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/ecommerce-performance-potential</guid>
+  </item>
+  <item>
+    <title>Bulky items: How to increase your sales?</title>
+    <link>https://www.prestashop.com/en/blog/bulky-item-shipping</link>
+    <description>According a recent Salecycle article, two thirds of online buyers abandon cart during checkout.</description>
+     <pubDate>Mon, 19 Jul 2021 18:52:51 +0200</pubDate>
+ <dc:creator>Pierre de Nicolay</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/bulky-item-shipping</guid>
+  </item>
+  <item>
+    <title>Why omnichannel is here to stay</title>
+    <link>https://www.prestashop.com/en/blog/omnichannel-ecommerce-payment</link>
+    <description>Brick and mortar retailers have faced unprecedented challenges throughout 2020 and 2021.</description>
+     <pubDate>Mon, 12 Jul 2021 18:21:40 +0200</pubDate>
+ <dc:creator>Annie Williams</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/omnichannel-ecommerce-payment</guid>
+  </item>
+  <item>
+    <title>Web performance: why it is so important and how to optimize it</title>
+    <link>https://www.prestashop.com/en/blog/importance-web-performance-ecommerce</link>
+    <description>If you already have an online store, or if you are thinking of creating one, you have probably already heard about the importance of web performance.</description>
+     <pubDate>Thu, 01 Jul 2021 13:31:07 +0200</pubDate>
+ <dc:creator>Noel Peix Boisdon EN</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/importance-web-performance-ecommerce</guid>
+  </item>
+  <item>
+    <title>Why should you be using Google Ads?</title>
+    <link>https://www.prestashop.com/en/blog/using-google-ads</link>
+    <description>Let’s imagine that you have created a brand new PrestaShop store, you have finished adding all your products, their prices, descriptions, the payment methods, the shipping process and your store ha</description>
+     <pubDate>Wed, 30 Jun 2021 18:11:00 +0200</pubDate>
+ <dc:creator>Hao Xu EN</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/using-google-ads</guid>
+  </item>
+  <item>
+    <title>Sales: what do your customers want?</title>
+    <link>https://www.prestashop.com/en/blog/sales-customers</link>
+    <description>Merchants are not the only ones to anticipate seasonal sales, which still represent 20% of their annual turnover.</description>
+     <pubDate>Mon, 28 Jun 2021 18:03:07 +0200</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/sales-customers</guid>
+  </item>
+  <item>
+    <title>Web Core Vitals and why they are important for a website’s user experience</title>
+    <link>https://www.prestashop.com/en/blog/web-core-vitals</link>
+    <description>Google has announced and introduced a new ranking signal, which combines existing user experience signals with Core Web Vitals.</description>
+     <pubDate>Thu, 17 Jun 2021 10:03:53 +0200</pubDate>
+ <dc:creator>bulldesign</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/web-core-vitals</guid>
+  </item>
+  <item>
+    <title>Ecommerce : How do you track your KPIs?</title>
+    <link>https://www.prestashop.com/en/blog/ecommerce-kpis-tools</link>
+    <description>In a previous article, we talked about how important key performanc</description>
+     <pubDate>Wed, 16 Jun 2021 15:07:06 +0200</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/ecommerce-kpis-tools</guid>
+  </item>
+  </channel>
+</rss>

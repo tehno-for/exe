@@ -1,0 +1,55 @@
+{
+  "dev": {
+    "wsUrl": "http://localhost:11041/",
+    "wsPort": 11041,
+    "appPort": 11040,
+    "adminPort": 11042,
+    "mysqlParams": {
+      "limit": 2,
+      "host": "localhost",
+      "user": "dev",
+      "password": "dev",
+      "database": "dev_opet"
+    },
+    "mimeTypeExtensions": {
+      "image/png": ".png",
+      "image/jpeg": ".jpg"
+    },
+    "companies": [
+      {
+        "id": 1,
+        "name": "opet",
+        "key": "opet123"
+      }
+    ],
+    "companyId": 1,
+    "companyKey": "opet123"
+  },
+
+  "test": {
+    "wsUrl": "http://localhost:11041/",
+    "wsPort": 11041,
+    "appPort": 11043,
+    "adminPort": 11042,
+    "mysqlParams": {
+      "limit": 20,
+      "host": "localhost",
+      "user": "c3opet",
+      "password": "jx3_4hABU",
+      "database": "c3opet_test"
+    },
+    "mimeTypeExtensions": {
+      "image/png": ".png",
+      "image/jpeg": ".jpg"
+    },
+    "companies": [
+      {
+        "id": 1,
+        "name": "opet",
+        "key": "90361b63a223242613c9f51ece1a8af8770d22a8d57de3fa72d270a63fa1f6ef67a44cb23550c3ec378ef0adfded3052c00468b193f3d5d8a0d2d67075a6d8ba"
+      }
+    ],
+    "companyId": 1,
+    "companyKey": "90361b63a223242613c9f51ece1a8af8770d22a8d57de3fa72d270a63fa1f6ef67a44cb23550c3ec378ef0adfded3052c00468b193f3d5d8a0d2d67075a6d8ba"
+  }
+}

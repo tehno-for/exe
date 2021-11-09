@@ -1,0 +1,117 @@
+2021/09/14 02:41:17 [error] 1442#1442: *68342 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/clients/client1/web2/web/modules/posspecialproducts/posspecialproducts.php on line 546
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/clients/client1/web2/web/index.php:0
+PHP message: PHP   2. Dispatcher->dispatch() /var/www/clients/client1/web2/web/index.php:28
+PHP message: PHP   3. IndexController->run() /var/www/clients/client1/web2/web/classes/Dispatcher.php:511
+PHP message: PHP   4. IndexController->display() /var/www/clients/client1/web2/web/classes/controller/Controller.php:301
+PHP message: PHP   5. IndexController->smartyOutputContent() /var/www/clients/client1/web2/web/classes/controller/FrontController.php:666
+PHP message: PHP   6. Smarty->fetch() /var/www/clients/client1/web2/web/classes/controller/FrontController.php:682
+PHP message: PHP   7. Smarty->_execute() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:116
+PHP message: PHP   8. Smarty_Internal_Template->render() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   9. Smarty_Template_Compiled->render() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP  10. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP  11. content_613fefaae16f68_46774326() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123
+PHP message: PHP  12. Smarty_Internal_Runtime_Inheritance->endChild() /var/www/clients/client1/web2/web/var/cache/prod/smarty/compile/layouts_layout_full_width_tpl/c3/4a/b9/c34ab9aa771528dcf6f4c177e61883d496444a78_2.file.index.tpl.php:33
+PHP message: PHP  13. Smarty_Internal_Template->_subTemplateRender() /var/w
+2021/09/14 02:41:21 [error] 1442#1442: *68342 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/clients/client1/web2/web/modules/posspecialproducts/posspecialproducts.php on line 546
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/clients/client1/web2/web/index.php:0
+PHP message: PHP   2. Dispatcher->dispatch() /var/www/clients/client1/web2/web/index.php:28
+PHP message: PHP   3. IndexController->run() /var/www/clients/client1/web2/web/classes/Dispatcher.php:511
+PHP message: PHP   4. IndexController->display() /var/www/clients/client1/web2/web/classes/controller/Controller.php:301
+PHP message: PHP   5. IndexController->smartyOutputContent() /var/www/clients/client1/web2/web/classes/controller/FrontController.php:666
+PHP message: PHP   6. Smarty->fetch() /var/www/clients/client1/web2/web/classes/controller/FrontController.php:682
+PHP message: PHP   7. Smarty->_execute() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:116
+PHP message: PHP   8. Smarty_Internal_Template->render() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   9. Smarty_Template_Compiled->render() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP  10. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP  11. content_613fefafa24871_49908331() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123
+PHP message: PHP  12. Smarty_Internal_Runtime_Inheritance->endChild() /var/www/clients/client1/web2/web/var/cache/prod/smarty/compile/layouts_layout_full_width_tpl/c3/4a/b9/c34ab9aa771528dcf6f4c177e61883d496444a78_2.file.index.tpl.php:33
+PHP message: PHP  13. Smarty_Internal_Template->_subTemplateRender() /var/w
+2021/09/14 02:41:24 [error] 1442#1442: *68342 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/clients/client1/web2/web/modules/posspecialproducts/posspecialproducts.php on line 546
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/clients/client1/web2/web/index.php:0
+PHP message: PHP   2. Dispatcher->dispatch() /var/www/clients/client1/web2/web/index.php:28
+PHP message: PHP   3. IndexController->run() /var/www/clients/client1/web2/web/classes/Dispatcher.php:511
+PHP message: PHP   4. IndexController->display() /var/www/clients/client1/web2/web/classes/controller/Controller.php:301
+PHP message: PHP   5. IndexController->smartyOutputContent() /var/www/clients/client1/web2/web/classes/controller/FrontController.php:666
+PHP message: PHP   6. Smarty->fetch() /var/www/clients/client1/web2/web/classes/controller/FrontController.php:682
+PHP message: PHP   7. Smarty->_execute() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:116
+PHP message: PHP   8. Smarty_Internal_Template->render() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   9. Smarty_Template_Compiled->render() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP  10. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP  11. content_613fefb28c3323_83714679() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123
+PHP message: PHP  12. Smarty_Internal_Runtime_Inheritance->endChild() /var/www/clients/client1/web2/web/var/cache/prod/smarty/compile/layouts_layout_full_width_tpl/c3/4a/b9/c34ab9aa771528dcf6f4c177e61883d496444a78_2.file.index.tpl.php:33
+PHP message: PHP  13. Smarty_Internal_Template->_subTemplateRender() /var/w
+2021/09/14 02:41:24 [error] 1442#1442: *68342 openat() "/var/www/furnitura.az/web/js/varien/js.js" failed (2: No such file or directory), client: 88.150.240.138, server: furnitura.az, request: "GET /js/varien/js.js HTTP/1.1", host: "furnitura.az"
+2021/09/14 02:41:26 [error] 1442#1442: *68342 openat() "/var/www/furnitura.az/web/js/mage/adminhtml/tools.js" failed (2: No such file or directory), client: 88.150.240.138, server: furnitura.az, request: "GET /js/mage/adminhtml/tools.js HTTP/1.1", host: "furnitura.az"
+2021/09/14 02:41:26 [error] 1442#1442: *68342 openat() "/var/www/furnitura.az/web/js/mage/translate_inline.js" failed (2: No such file or directory), client: 88.150.240.138, server: furnitura.az, request: "GET /js/mage/translate_inline.js HTTP/1.1", host: "furnitura.az"
+2021/09/14 02:41:26 [error] 1442#1442: *68342 openat() "/var/www/furnitura.az/web/js/mage/adminhtml/sales.js" failed (2: No such file or directory), client: 88.150.240.138, server: furnitura.az, request: "GET /js/mage/adminhtml/sales.js HTTP/1.1", host: "furnitura.az"
+2021/09/14 02:41:26 [error] 1442#1442: *68342 openat() "/var/www/furnitura.az/web/skin/adminhtml/default/default/boxes.css" failed (2: No such file or directory), client: 88.150.240.138, server: furnitura.az, request: "GET /skin/adminhtml/default/default/boxes.css HTTP/1.1", host: "furnitura.az"
+2021/09/14 02:41:26 [error] 1442#1442: *68342 openat() "/var/www/furnitura.az/web/js/mage/adminhtml/product.js" failed (2: No such file or directory), client: 88.150.240.138, server: furnitura.az, request: "GET /js/mage/adminhtml/product.js HTTP/1.1", host: "furnitura.az"
+2021/09/14 02:41:26 [error] 1442#1442: *68342 openat() "/var/www/furnitura.az/web/js/lib/flex.js" failed (2: No such file or directory), client: 88.150.240.138, server: furnitura.az, request: "GET /js/lib/flex.js HTTP/1.1", host: "furnitura.az"
+2021/09/14 02:41:26 [error] 1442#1442: *68342 openat() "/var/www/furnitura.az/web/js/prototype/validation.js" failed (2: No such file or directory), client: 88.150.240.138, server: furnitura.az, request: "GET /js/prototype/validation.js HTTP/1.1", host: "furnitura.az"
+2021/09/14 02:41:28 [error] 1442#1442: *68553 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/clients/client1/web2/web/modules/posspecialproducts/posspecialproducts.php on line 546
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/clients/client1/web2/web/index.php:0
+PHP message: PHP   2. Dispatcher->dispatch() /var/www/clients/client1/web2/web/index.php:28
+PHP message: PHP   3. IndexController->run() /var/www/clients/client1/web2/web/classes/Dispatcher.php:511
+PHP message: PHP   4. IndexController->display() /var/www/clients/client1/web2/web/classes/controller/Controller.php:301
+PHP message: PHP   5. IndexController->smartyOutputContent() /var/www/clients/client1/web2/web/classes/controller/FrontController.php:666
+PHP message: PHP   6. Smarty->fetch() /var/www/clients/client1/web2/web/classes/controller/FrontController.php:682
+PHP message: PHP   7. Smarty->_execute() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:116
+PHP message: PHP   8. Smarty_Internal_Template->render() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   9. Smarty_Template_Compiled->render() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP  10. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP  11. content_613fefb691b8b7_11118317() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123
+PHP message: PHP  12. Smarty_Internal_Runtime_Inheritance->endChild() /var/www/clients/client1/web2/web/var/cache/prod/smarty/compile/layouts_layout_full_width_tpl/c3/4a/b9/c34ab9aa771528dcf6f4c177e61883d496444a78_2.file.index.tpl.php:33
+PHP message: PHP  13. Smarty_Internal_Template->_subTemplateRender() /var/w
+2021/09/14 02:41:30 [error] 1442#1442: *68342 openat() "/var/www/furnitura.az/web/js/mage/cookies.js" failed (2: No such file or directory), client: 88.150.240.138, server: furnitura.az, request: "GET /js/mage/cookies.js HTTP/1.1", host: "furnitura.az"
+2021/09/14 02:41:30 [error] 1442#1442: *68342 openat() "/var/www/furnitura.az/web/js/js.js" failed (2: No such file or directory), client: 88.150.240.138, server: furnitura.az, request: "GET /js/js.js HTTP/1.1", host: "furnitura.az"
+2021/09/14 02:41:35 [error] 1442#1442: *68342 openat() "/var/www/furnitura.az/web/images/wlw/wp-icon.png" failed (2: No such file or directory), client: 88.150.240.138, server: furnitura.az, request: "GET /images/wlw/wp-icon.png HTTP/1.1", host: "furnitura.az"
+2021/09/14 02:41:35 [error] 1442#1442: *68342 openat() "/var/www/furnitura.az/web/static/admin/css/base.css" failed (2: No such file or directory), client: 88.150.240.138, server: furnitura.az, request: "GET /static/admin/css/base.css HTTP/1.1", host: "furnitura.az"
+2021/09/14 02:41:37 [error] 1442#1442: *68560 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/clients/client1/web2/web/modules/posspecialproducts/posspecialproducts.php on line 546
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/clients/client1/web2/web/index.php:0
+PHP message: PHP   2. Dispatcher->dispatch() /var/www/clients/client1/web2/web/index.php:28
+PHP message: PHP   3. IndexController->run() /var/www/clients/client1/web2/web/classes/Dispatcher.php:511
+PHP message: PHP   4. IndexController->display() /var/www/clients/client1/web2/web/classes/controller/Controller.php:301
+PHP message: PHP   5. IndexController->smartyOutputContent() /var/www/clients/client1/web2/web/classes/controller/FrontController.php:666
+PHP message: PHP   6. Smarty->fetch() /var/www/clients/client1/web2/web/classes/controller/FrontController.php:682
+PHP message: PHP   7. Smarty->_execute() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:116
+PHP message: PHP   8. Smarty_Internal_Template->render() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   9. Smarty_Template_Compiled->render() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP  10. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP  11. content_613fefbfcb15e0_80517277() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123
+PHP message: PHP  12. Smarty_Internal_Runtime_Inheritance->endChild() /var/www/clients/client1/web2/web/var/cache/prod/smarty/compile/layouts_layout_full_width_tpl/c3/4a/b9/c34ab9aa771528dcf6f4c177e61883d496444a78_2.file.index.tpl.php:33
+PHP message: PHP  13. Smarty_Internal_Template->_subTemplateRender() /var/w
+2021/09/14 06:22:54 [error] 5546#5546: *69385 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/clients/client1/web2/web/modules/posspecialproducts/posspecialproducts.php on line 546
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/clients/client1/web2/web/index.php:0
+PHP message: PHP   2. Dispatcher->dispatch() /var/www/clients/client1/web2/web/index.php:28
+PHP message: PHP   3. IndexController->run() /var/www/clients/client1/web2/web/classes/Dispatcher.php:511
+PHP message: PHP   4. IndexController->display() /var/www/clients/client1/web2/web/classes/controller/Controller.php:301
+PHP message: PHP   5. IndexController->smartyOutputContent() /var/www/clients/client1/web2/web/classes/controller/FrontController.php:666
+PHP message: PHP   6. Smarty->fetch() /var/www/clients/client1/web2/web/classes/controller/FrontController.php:682
+PHP message: PHP   7. Smarty->_execute() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:116
+PHP message: PHP   8. Smarty_Internal_Template->render() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   9. Smarty_Template_Compiled->render() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP  10. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP  11. content_6140239c573318_30512166() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123
+PHP message: PHP  12. Smarty_Internal_Runtime_Inheritance->endChild() /var/www/clients/client1/web2/web/var/cache/prod/smarty/compile/layouts_layout_full_width_tpl/c3/4a/b9/c34ab9aa771528dcf6f4c177e61883d496444a78_2.file.index.tpl.php:33
+PHP message: PHP  13. Smarty_Internal_Template->_subTemplateRender() /var/w
+2021/09/14 07:58:53 [error] 5546#5546: *69993 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/clients/client1/web2/web/modules/posspecialproducts/posspecialproducts.php on line 546
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/clients/client1/web2/web/index.php:0
+PHP message: PHP   2. Dispatcher->dispatch() /var/www/clients/client1/web2/web/index.php:28
+PHP message: PHP   3. IndexController->run() /var/www/clients/client1/web2/web/classes/Dispatcher.php:511
+PHP message: PHP   4. IndexController->display() /var/www/clients/client1/web2/web/classes/controller/Controller.php:301
+PHP message: PHP   5. IndexController->smartyOutputContent() /var/www/clients/client1/web2/web/classes/controller/FrontController.php:666
+PHP message: PHP   6. Smarty->fetch() /var/www/clients/client1/web2/web/classes/controller/FrontController.php:682
+PHP message: PHP   7. Smarty->_execute() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:116
+PHP message: PHP   8. Smarty_Internal_Template->render() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php:232
+PHP message: PHP   9. Smarty_Template_Compiled->render() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php:216
+PHP message: PHP  10. Smarty_Template_Compiled->getRenderedTemplateCode() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php:114
+PHP message: PHP  11. content_61403a1aab00e1_93650628() /var/www/clients/client1/web2/web/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:123
+PHP message: PHP  12. Smarty_Internal_Runtime_Inheritance->endChild() /var/www/clients/client1/web2/web/var/cache/prod/smarty/compile/layouts_layout_full_width_tpl/c3/4a/b9/c34ab9aa771528dcf6f4c177e61883d496444a78_2.file.index.tpl.php:33
+PHP message: PHP  13. Smarty_Internal_Template->_subTemplateRender() /var/w

@@ -1,0 +1,73 @@
+/* Furnitura site install
+Prestashop          1.7.5.2
+Symphony            3.4.22
+ICU requarments     63.1
+Php requarments     7.1.32
+change comment example: /* Userchange 30=>10*/
+
+old changes(need check again)
+1. Add {$shop.name}
+in web/themes/theme_optima_decor3/templates/_partials/head.tpl
+
+2. Add
+alt="{if !empty($product.cover.legend)}{$image.legend}{else}{$product.name|truncate:30:'...'}{/if}"
+
+title="{if !empty($product.cover.legend)}{$image.legend}{else}{$product.name|truncate:60:'...'}{/if} - furnitura.az"
+in web/themes/theme_optima_decor3/templates/catalog/_partials/product-cover-thumbnails.tpl
+
+3.Twitter del
+add nofollow tag
+<li class="first"><a class="twitter fa fa-twitter" title="Twitter" rel="nofollow" target="_blank"
+href="https://twitter.com/"><span>twitter</span></a></li>
+
+4. modules/xipblog/views/templates/front/default/single.tpl
+chande tag h3 => h1
+/web/themes/theme_optima_decor3/modules/xipblogdisplayposts/views/templates/front/xipblogdisplayposts.tp
+change tag h3 = h1
+
+2021 02 13 last working backup
+            in /web/themes/theme_optima_decor3/modules/poslogo/logo.tpl
+            <!--- // Userchange old->"{l s='Logo' mod='poslogo'}" / ,,{$logo.image}
+                 add nofollow --->
+                 add alt ="{$logo.description} - furnitura" title="{$logo.title}
+                 /web/modules/poslogo/models/Logo.php
+                 description' => array('type' => self::TYPE_STRING
+
+2020 02 17 1-Click Upgrade to last version PS, and Downgrade to old version
+                 Google Analitics add in file:
+                 /web/themes/theme_optima_decor3/templates/_partials/header.tpl
+
+2021 02 22
+                 delete virus adwertising in @Tools::file_get_contents(--)
+                 modules/xipblog/xipblog.php:1062:                       $data = @Tools::file_get_contents('http://xpert-idea.com/promotion/promotion_top.php');
+                 modules/xipblog/xipblog.php:1071:                       $data = @Tools::file_get_contents('http://xpert-idea.com/promotion/promotion_top.php');
+
+
+                 ll css changed in assets folder with Userchange description
+
+2021 02 28
+                 delete from
+                 web/modules/xipblog/views/templates/front/xipblog.tpl:12
+                 {if isset($xipbdp_subtext)}
+                 <p class="page_subtitle">{$xipbdp_subtext}</p>
+                 {/if}
+                 delete from
+                 /web/themes/theme_optima_decor3/templates/catalog/listing/category.tpl:40
+                 <h1 class="h1">{$category.name}</h1>
+                 <div class="text-sm-center hidden-md-up">
+                   <h1 class="h1">{$category.name}</h1>
+                 </div>
+2020 03 01
+                add nofollow
+                /web/themes/theme_optima_decor3/modules/ps_advertising/ps_advertising.tpl
+2020 03 02
+                add module cash on delivery
+2020 03 12
+                /web/themes/theme_optima_decor3/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl
+                changes newsleter forms Shop.Theme.Global=>Shop.Forms.Labels
+                redact product details in alt, title
+                /web/themes/theme_optima_decor3/templates/catalog/_partials/miniatures/product.tpl
+
+2021 09 14      if (is_array($products)) { :546
+
+*/

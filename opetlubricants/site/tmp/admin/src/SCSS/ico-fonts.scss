@@ -1,0 +1,72 @@
+.ico-edit {
+  color: #080;
+  
+  &:hover {
+    color: #0f0;
+  }
+}
+
+.ico-delete {
+  color: #800;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.ico-show {
+  color: #777;
+
+  &:hover {
+    color: #444;
+  }
+}
+
+.ico-hide {
+  color: #ccc;
+  
+  &:hover {
+    color: #aaa;
+  }
+}
+
+.ico-make-unnecessary {
+  color: red;
+
+  &:hover {
+    color: #d88;
+  }
+}
+
+.ico-make-important {
+  color: #d0c0c0;
+
+  &:hover {
+    color: #d07070;
+  }
+}
+
+.ico-images {
+  color: #288282;
+}
+
+.ico-reload {
+  color: #008;
+
+  &:hover {
+    color: #55d;
+    transform: rotate(180deg);
+  }
+}
+
+.ico-link {
+  color: #22a8ff;
+
+  &:hover {
+    color: #55d;
+  }
+}
+
+.ico-archive {
+  color: #db9a59;
+}

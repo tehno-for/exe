@@ -1,0 +1,11 @@
+*ERROR* 	v1.7.5.2	2021/09/14 - 10:33:11: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user 'c2test'@'localhost' (using password: YES) at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.5.2	2021/09/14 - 10:33:28: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user 'c2test'@'localhost' (using password: YES) at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.5.2	2021/09/14 - 10:35:19: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user 'c2test'@'localhost' (using password: YES) at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.5.2	2021/09/14 - 10:35:35: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user 'c2test'@'localhost' (using password: YES) at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.5.2	2021/09/14 - 10:35:41: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user 'c2test'@'localhost' (using password: YES) at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.5.2	2021/09/14 - 10:36:30: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user 'c2test'@'localhost' (using password: YES) at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.5.2	2021/09/14 - 10:50:48: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user 'c2test'@'localhost' (using password: YES) at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.5.2	2021/09/14 - 10:51:54: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user 'c2test'@'localhost' (using password: YES) at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.5.2	2021/09/14 - 10:52:03: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user 'c2test'@'localhost' (using password: YES) at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.5.2	2021/09/14 - 10:53:14: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user 'c2test'@'localhost' (using password: YES) at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.5.2	2021/09/14 - 10:53:18: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user 'c2test'@'localhost' (using password: YES) at line 127 in file classes/db/DbPDO.php

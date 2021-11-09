@@ -1,0 +1,13 @@
+
+<script type="text/template" id="template-product-all">
+    {{each(prop1, val1) categories}}
+    {{each(prop2, val2) products}}
+    <div class="product-item">
+        <a href="/product/${val2.id}-${val2.name}.html" data-id="${val2.id}" data-category-id="${val1.id}" data-main-category-id="${$data.id}">
+            <img src="${val2.picture}" alt=""/>
+            <b class="roboto-reg">${val2.name}</b>
+        </a>
+    </div>
+    {{/each}}
+    {{/each}}
+</script>

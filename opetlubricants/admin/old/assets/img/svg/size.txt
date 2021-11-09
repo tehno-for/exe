@@ -1,0 +1,24 @@
+menu-araba 70x26
+menu-is-makinesi 50x30
+menu-endustriyel 46x37
+menu-motosiklet 38x23
+menu-uzun-arac 105x36
+menu-gemi 74x40
+menu-traktor 34x40
+menu-kamyon 74x36
+filter-motor-yaglari 32x28
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D:\Works\opet\open_funhcs\svg

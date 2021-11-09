@@ -1,0 +1,18 @@
+selector {
+/*  declaration block */
+  declaration 1;
+  declaration 2;
+  .............
+}
+
+descendant1 descendant2 {
+  property1: value1;
+  property2: value2;
+
+}
+
+selector type:
+  elements: article, nav, p, h1, h2 ....
+  #id
+  .class
+declaration block {all in here}

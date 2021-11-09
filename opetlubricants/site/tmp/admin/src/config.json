@@ -1,0 +1,13 @@
+{
+  "dev": {
+    "wsUrl": "http://localhost:11041",
+    "itemLimit": 50,
+    "siteUrl": "http://localhost:11040"
+  },
+
+  "test": {
+    "wsUrl": "http://anticafe.az:11041",
+    "itemLimit": 50,
+    "siteUrl": "http://tsopet.anticafe.az"
+  }
+}

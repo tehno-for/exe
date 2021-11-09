@@ -1,0 +1,35 @@
+.table {
+  width: 100%;
+  font-size: 0.8rem;
+  border-collapse: collapse;
+
+  .tbody {
+    background-color: #fff;
+  }
+
+  th {
+    font-size: 1rem;
+  }
+
+  td,
+  th {
+    padding: 0.5rem 1rem;
+    text-align: left;
+  }
+}
+
+.table-striped {
+  .tbody {
+    tr:nth-child(2n + 1) {
+      background-color: #eee;
+    }
+  }
+}
+
+.table-hover {
+  .tbody {
+    tr:hover {
+      background-color: #ddd;
+    }
+  }
+}

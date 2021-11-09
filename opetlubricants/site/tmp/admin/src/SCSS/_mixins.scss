@@ -1,0 +1,25 @@
+@mixin flex-box ($dir: row, $align: center, $justify: center) {
+  display: flex;
+  flex-direction: $dir;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin font($size: inherit, $line: inherit, $weight: inherit, $textAlign: inherit, $family: inherit) {
+  font-family: $family;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line;
+  text-align: $textAlign;
+}
+
+@mixin font-size-line($size, $line) {
+  font-size: $size;
+  line-height: $line;
+}
+
+@mixin font-size-weight-line($size, $weight, $line) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line;
+}

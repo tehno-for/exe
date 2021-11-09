@@ -1,0 +1,211 @@
+name: theme_optima_decor3
+display_name: Optima_decor3
+version: 1.0.0
+author:
+  name: "Posthemes"
+  email: ""
+  url: "https://posthemes.com/"
+
+meta:
+  compatibility:
+      from: 1.7.0.0
+      to: ~
+
+  available_layouts:
+    layout-full-width:
+      name: Full Width
+      description: No side columns, ideal for distraction-free pages such as product pages.
+    layout-both-columns:
+      name: Three Columns
+      description: One large central column and 2 side columns.
+    layout-left-column:
+      name: Two Columns, small left column
+      description: Two columns with a small left column
+    layout-right-column:
+      name: Two Columns, small right column
+      description: Two columns with a small right column
+
+assets:
+  # If you're using this theme as child and you want to load
+  # the parent theme assets, uncomment this line.
+#  use_parent_assets: true
+
+  # The following lines are showing how to load assets in your page
+  # Uncomment and change value to start loading css or js files
+#  css:
+#    all:
+#      - id: custom-lib-style
+#        path: assets/css/custom-lib.css
+#    product:
+#      - id: product-style
+#        path: assets/css/product.css
+#        media: all
+#        priority: 200
+#  js:
+#    cart:
+#      - id: cat-extra-lib
+#        path: assets/js/cart-lib.js
+
+global_settings:
+  configuration:
+    PS_IMAGE_QUALITY: png
+  modules:
+   to_disable:
+     - welcome
+     - ps_customtext
+     - ps_featuredproducts
+     - ps_imageslider
+     - ps_mainmenu
+     - ps_banner
+     - ps_viewedproduct	
+   to_enable:
+     - ps_socialfollow
+     - ps_contactinfo
+     - ps_linklist
+     - ps_advertising
+     - ps_categoryproducts 
+     - ps_searchbar 
+     - ps_emailsubscription 
+     - productcomments
+     - poslogo
+     - posmegamenu
+     - posslideshows
+     - posstaticblocks
+     - posstaticfooter
+     - posnewproducts
+     - posspecialproducts
+     - postestimonials
+     - xipblog
+     - xipblogdisplayposts
+     - poscountdown
+  hooks:
+    modules_to_hook:
+      displayBlockPosition1:
+        - posnewproducts
+        - posstaticblocks
+        - posspecialproducts
+        - poslogo
+        - xipblogdisplayposts
+      displayBlockPosition2:
+        - posstaticblocks
+      displayBlockPosition3:
+        - posstaticblocks
+      displayBlockPosition4:
+        - posstaticblocks
+      displayBlockPosition5:
+        - posstaticblocks
+      displayBlockPosition6:
+        - posstaticblocks
+      displayBlockPosition7:
+        - posstaticblocks
+      displayBrandSlider:
+        
+      displayNav1:
+       - posstaticblocks 
+      displayTopColumn:
+        - posslideshows
+        - posstaticblocks
+      displayNav:
+        - ps_customersignin
+        - ps_languageselector
+        - ps_currencyselector
+        - posstaticblocks
+      displayTop:
+        - ps_shoppingcart
+        - ps_searchbar
+      displayFooter:
+        - ps_linklist
+        - posstaticfooter
+      displayFooterBefore:
+        - posstaticfooter
+      displayFooterAfter:
+        - ps_emailsubscription
+        - posstaticfooter
+      displayBlockFooter1:	
+        - posstaticfooter
+      displayBlockFooter2:	
+        - posstaticfooter
+      displayBlockFooter3:	
+        - posstaticfooter
+      displayBlockFooter4:	
+        - posstaticfooter
+      displayLeftColumn:
+        - ps_categorytree
+        - ps_facetedsearch
+        - ps_advertising
+      displayFooterProduct:
+        - ps_categoryproducts   
+      displayProductButtons:
+        - ps_sharebuttons
+      displayReassurance:
+        - blockreassurance
+      displayBackOfficeHeader:
+        - posstaticfooter
+        - posstaticblocks
+  image_types:
+    cart_default:
+      width: 125
+      height: 152
+      scope: [products]
+    small_default:
+      width: 98
+      height: 119
+      scope: [products, categories, manufacturers, suppliers]
+    medium_default:
+      width: 458
+      height: 555
+      scope: [products, manufacturers, suppliers]
+    home_default:
+      width: 350
+      height: 424
+      scope: [products]
+    large_default:
+      width: 600
+      height: 727
+      scope: [products, manufacturers, suppliers]
+    category_default:
+      width: 870
+      height: 450
+      scope: [categories]
+    stores_default:
+      width: 170
+      height: 206
+      scope: [stores]
+    side_default:
+      width: 70
+      height: 85
+      scope: [products]
+
+theme_settings:
+  default_layout: layout-full-width
+  layouts:
+    category: layout-left-column
+    best-sales: layout-left-column
+    new-products: layout-left-column
+    prices-drop: layout-left-column
+    contact: layout-left-column
+    Manufacturers: layout-left-column
+    Search: layout-left-column
+    module-xipblog-archive: layout-left-column
+    module-xipblog-single: layout-left-column
+dependencies:
+  modules:
+     - ps_socialfollow
+     - ps_contactinfo
+     - ps_linklist
+     - ps_advertising
+     - ps_categoryproducts 
+     - ps_searchbar 
+     - ps_emailsubscription 
+     - productcomments
+     - poslogo
+     - posmegamenu
+     - posslideshows
+     - posstaticblocks
+     - posstaticfooter
+     - posnewproducts
+     - posspecialproducts
+     - postestimonials
+     - xipblog
+     - xipblogdisplayposts
+     - poscountdown

@@ -1,0 +1,109 @@
+.fixed_cerez {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999; }
+
+.fixed_cerez .overlay_areas_2 {
+  background: #000;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden; }
+
+.fixed_cerez .textt {
+  z-index: 2;
+  position: relative;
+  color: #fff;
+  padding: 0px 0;
+  width: 1240px;
+  margin: 0 auto; }
+
+.fixed_cerez .textt p {
+  font: 14px 'hm',arial;
+  width: 95%;
+  float: left;
+  margin-right: 10px;
+  text-align: left; }
+
+.fixed_cerez .textt p a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold; }
+
+.fixed_cerez .textt a.ok_btn {
+  color: #fff;
+  font: 14px 'hm',arial;
+  background: #076cd8;
+  padding: 8px 15px;
+  border-radius: 2px;
+  right: 50px;
+  top: 50%;
+  margin-top: 0;
+  float: left; }
+
+.fixed_cerez .textt a.close {
+  color: #fff;
+  font: 24px 'hm',arial;
+  position: absolute;
+  right: 20px;
+  top: 10px; }
+
+@media only screen and (max-width: 1239px) and (min-width: 1152px) {
+  .fixed_cerez .textt {
+    width: 950px; }
+
+  .fixed_cerez .textt a.ok_btn {
+    margin-top: 17px; } }
+@media only screen and (max-width: 1151px) and (min-width: 1024px) {
+  .fixed_cerez .textt {
+    width: 950px; }
+
+  .fixed_cerez .textt a.ok_btn {
+    margin-top: 17px; } }
+@media only screen and (max-width: 1023px) and (min-width: 991px) {
+  .fixed_cerez .textt {
+    width: 850px; }
+
+  .fixed_cerez .textt a.ok_btn {
+    position: relative;
+    right: inherit;
+    margin-top: 16px; }
+
+  .fixed_cerez .textt a.close {
+    right: 0; } }
+@media only screen and (max-width: 990px) and (min-width: 768px) {
+  .fixed_cerez .textt {
+    width: 95%;
+    text-align: center;
+    padding: 50px 0 35px 0; }
+
+  .fixed_cerez .textt a.ok_btn {
+    margin: 20px auto 0 auto;
+    display: inline-block;
+    text-align: center;
+    float: none; }
+
+  .fixed_cerez .textt p {
+    width: 100%;
+    float: none; } }
+@media only screen and (max-width: 767px) {
+  .fixed_cerez .textt {
+    width: 95%;
+    text-align: center;
+    padding: 50px 0 35px 0; }
+
+  .fixed_cerez .textt a.ok_btn {
+    margin: 20px auto 0 auto;
+    display: inline-block;
+    text-align: center;
+    float: none;
+    font-size: 12px; }
+
+  .fixed_cerez .textt p {
+    width: 100%;
+    float: none;
+    font-size: 12px; } }
+
+/*# sourceMappingURL=main.css.map */

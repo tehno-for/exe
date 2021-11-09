@@ -1,0 +1,311 @@
+<pos_static_blocks>
+<!-- static block configuration -->
+	<block>
+		<id_posstaticblock>1</id_posstaticblock>
+		<identify>nav_home</identify>
+		<hook_position>displayNav</hook_position>
+		<name_module></name_module>
+		<hook_module>0</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>2</id_posstaticblock>
+		<identify>static3_home1</identify>
+		<hook_position>displayBlockPosition2</hook_position>
+		<name_module></name_module>
+		<hook_module>0</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>3</id_posstaticblock>
+		<identify>static1_home9</identify>
+		<hook_position>displayTopColumn</hook_position>
+		<name_module></name_module>
+		<hook_module>0</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>4</id_posstaticblock>
+		<identify>static2_home9</identify>
+		<hook_position>displayBlockPosition1</hook_position>
+		<name_module></name_module>
+		<hook_module>0</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	
+<!-- block lang configuration -->
+	<block_lang>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>nav home</title>
+		<description>
+			 <![CDATA[
+				<div id="_desktop_static">
+				<div class="static-nav">
+				<div class="phone-mail"><span class="phone-iner"><i class="fa fa-phone"></i>(08)123 456 7890</span> <span class="mail-iner"><i class="fa fa-envelope-open-o"></i> yourmail@domain.com</span></div>
+				<div class="link-top">
+				<ul class="link-follow">
+				<li class="first"><a class="twitter fa fa-twitter" title="Twitter" href="https://twitter.com/posthemes"><span>twitter</span></a></li>
+				<li><a class="wifi fa fa-rss" title="Google" href="#"><span>wifi</span></a></li>
+				<li><a class="google fa fa-google-plus" title="Google" href="#"><span>google</span></a></li>
+				<li><a class="facebook fa fa-facebook" title="Facebook" href="https://www.facebook.com/posthemes"><span>facebook</span></a></li>
+				<li><a class="youtube fa fa-youtube" title="Youtube" href="https://www.youtube.com/user/posthemes"><span>youtube </span></a></li>
+				<li><a class="instagram fa fa-instagram" title="Youtube" href="#"><span>instagram </span></a></li>
+				</ul>
+				</div>
+				</div>
+				</div>
+			 ]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>static3 home1</title>
+		<description>
+			 <![CDATA[
+				<div class="static3_home1">
+				<div class="container">
+				<div class="row">
+				<div class="col-xs-12 col-lg-3 col-md-6 box1">
+				<div class="box-col">
+				<div class="pe-7s-plane icon"><span>icon</span></div>
+				<div class="text-des">
+				<h2>Free Shipping</h2>
+				<p>Free shipping on all US order or order above $200</p>
+				</div>
+				</div>
+				</div>
+				<div class="col-xs-12 col-lg-3 col-md-6 box2">
+				<div class="box-col">
+				<div class="pe-7s-help2 icon"><span>icon</span></div>
+				<div class="text-des">
+				<h2>Support 24/7</h2>
+				<p>Contact us 24 hours a day, 7 days a week</p>
+				</div>
+				</div>
+				</div>
+				<div class="col-xs-12 col-lg-3 col-md-6 box3">
+				<div class="box-col">
+				<div class="pe-7s-back icon"><span>icon</span></div>
+				<div class="text-des">
+				<h2>30 Days Return</h2>
+				<p>Simply return it within 30 days for an exchange</p>
+				</div>
+				</div>
+				</div>
+				<div class="col-xs-12 col-lg-3 col-md-6 box4">
+				<div class="box-col">
+				<div class="pe-7s-credit icon"><span>icon</span></div>
+				<div class="text-des">
+				<h2>100% Payment Secure</h2>
+				<p>We ensure secure payment with PEV</p>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+			 ]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>static1 home9</title>
+		<description>
+			 <![CDATA[
+				<div class="static1_home9">
+				<div class="container">
+				<div class="row">
+				<div class=" box1 col col-lg-6 col-md-6 col-xs-12">
+				<div class="box-col"><a href="#"><img src="/pos_optima2/img/cms/img1_home9.jpg" alt="banner" class="img-responsive" /></a></div>
+				</div>
+				<div class=" box2 col col-lg-6 col-md-6 col-xs-12">
+				<div class="box-col"><a href="#"><img src="/pos_optima2/img/cms/img2_home9.jpg" alt="banner" class="img-responsive" /></a></div>
+				</div>
+				</div>
+				</div>
+				</div>
+			 ]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>4</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>static2 home9</title>
+		<description>
+			 <![CDATA[
+				<div class="static-baner">
+				<div class="container">
+				<div class="row">
+				<div class=" box2 col col-lg-7 col-md-7 col-xs-12"></div>
+				<div class=" box1 col col-lg-5 col-md-5 col-xs-12">
+				<div class="text">
+				<h4 class="day">Black Friday !</h4>
+				<h3>Sale Up to</h3>
+				<h1>70%</h1>
+				<a href="#" class="shop"><span><i class="fa fa-plus"></i> Shop Now</span></a></div>
+				</div>
+				</div>
+				</div>
+				</div>
+			 ]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>nav home</title>
+		<description>
+			 <![CDATA[
+				<div id="_desktop_static">
+				<div class="static-nav">
+				<div class="phone-mail"><span class="phone-iner"><i class="fa fa-phone"></i>(08)123 456 7890</span> <span class="mail-iner"><i class="fa fa-envelope-open-o"></i> yourmail@domain.com</span></div>
+				<div class="link-top">
+				<ul class="link-follow">
+				<li class="first"><a class="twitter fa fa-twitter" title="Twitter" href="https://twitter.com/posthemes"><span>twitter</span></a></li>
+				<li><a class="wifi fa fa-rss" title="Google" href="#"><span>wifi</span></a></li>
+				<li><a class="google fa fa-google-plus" title="Google" href="#"><span>google</span></a></li>
+				<li><a class="facebook fa fa-facebook" title="Facebook" href="https://www.facebook.com/posthemes"><span>facebook</span></a></li>
+				<li><a class="youtube fa fa-youtube" title="Youtube" href="https://www.youtube.com/user/posthemes"><span>youtube </span></a></li>
+				<li><a class="instagram fa fa-instagram" title="Youtube" href="#"><span>instagram </span></a></li>
+				</ul>
+				</div>
+				</div>
+				</div>
+			 ]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>static3 home1</title>
+		<description>
+			 <![CDATA[
+				<div class="static3_home1">
+				<div class="container">
+				<div class="row">
+				<div class="col-xs-12 col-lg-3 col-md-6 box1">
+				<div class="box-col">
+				<div class="pe-7s-plane icon"><span>icon</span></div>
+				<div class="text-des">
+				<h2>Free Shipping</h2>
+				<p>Free shipping on all US order or order above $200</p>
+				</div>
+				</div>
+				</div>
+				<div class="col-xs-12 col-lg-3 col-md-6 box2">
+				<div class="box-col">
+				<div class="pe-7s-help2 icon"><span>icon</span></div>
+				<div class="text-des">
+				<h2>Support 24/7</h2>
+				<p>Contact us 24 hours a day, 7 days a week</p>
+				</div>
+				</div>
+				</div>
+				<div class="col-xs-12 col-lg-3 col-md-6 box3">
+				<div class="box-col">
+				<div class="pe-7s-back icon"><span>icon</span></div>
+				<div class="text-des">
+				<h2>30 Days Return</h2>
+				<p>Simply return it within 30 days for an exchange</p>
+				</div>
+				</div>
+				</div>
+				<div class="col-xs-12 col-lg-3 col-md-6 box4">
+				<div class="box-col">
+				<div class="pe-7s-credit icon"><span>icon</span></div>
+				<div class="text-des">
+				<h2>100% Payment Secure</h2>
+				<p>We ensure secure payment with PEV</p>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+			 ]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>static1 home9</title>
+		<description>
+			 <![CDATA[
+				<div class="static1_home9">
+				<div class="container">
+				<div class="row">
+				<div class=" box1 col col-lg-6 col-md-6 col-xs-12">
+				<div class="box-col"><a href="#"><img src="/pos_optima2/img/cms/img1_home9.jpg" alt="banner" class="img-responsive" /></a></div>
+				</div>
+				<div class=" box2 col col-lg-6 col-md-6 col-xs-12">
+				<div class="box-col"><a href="#"><img src="/pos_optima2/img/cms/img2_home9.jpg" alt="banner" class="img-responsive" /></a></div>
+				</div>
+				</div>
+				</div>
+				</div>
+			 ]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>4</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>static2 home9</title>
+		<description>
+			 <![CDATA[
+				<div class="static-baner">
+				<div class="container">
+				<div class="row">
+				<div class=" box2 col col-lg-7 col-md-7 col-xs-12"></div>
+				<div class=" box1 col col-lg-5 col-md-5 col-xs-12">
+				<div class="text">
+				<h4 class="day">Black Friday !</h4>
+				<h3>Sale Up to</h3>
+				<h1>70%</h1>
+				<a href="#" class="shop"><span><i class="fa fa-plus"></i> Shop Now</span></a></div>
+				</div>
+				</div>
+				</div>
+				</div>
+			 ]]>
+		</description>
+	</block_lang>
+	
+		
+	
+<!-- block shop configuration -->
+	<block_shop>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>4</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	
+</pos_static_blocks>

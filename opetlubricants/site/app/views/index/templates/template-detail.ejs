@@ -1,0 +1,52 @@
+<script type="text/template" id="template-detail">
+    <div class="overlay-head">
+        <h3 class="opet-reg" id="pop_category_name"></h3>
+    </div>
+    <div class="overlay-content" style="height: auto;">
+        <div class="overlay-stage">
+            <div class="flex expert-overlay color-gray-700">
+                <div class="expert-overlay-content1">
+
+                    <div class="left">
+                        <img id="pop_image" src="${picture}" alt="">
+                    </div>
+
+                    <div class="right">
+                        <h2 id="pop_title">
+                            ${name}
+                        </h2>
+
+                        <p id="pop_content">
+                            ${description}
+                        </p>
+
+                        <div class="product-sizes flex">
+                            <h3 class="roboto-medium color-gray-500">Product Size</h3>
+                            <div id="pop_product_size">
+                                {{each(prop,val) sizes}}
+                                <a>${val}</a>
+                                {{/each}}
+                            </div>
+                        </div>
+
+                        <div class="product-doc">
+
+                            {{each(prop,val) links}}
+                            <a href="${url}" target="_blank" class="btn border color-blue-300 fill-blue-300 flex">
+                                <span>${name}</span>
+                                <i class="${icon}">
+                                    <u>
+                                        {{html svg}}
+                                    </u>
+                                </i>
+                            </a>
+                            {{/each}}
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="overlay-close-btn close_pop_Up1"><i class="fa fa-close"></i></a>
+</script>

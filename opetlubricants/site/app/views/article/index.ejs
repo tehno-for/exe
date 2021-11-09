@@ -1,0 +1,104 @@
+<%- include ('../common/blocks/head')%>
+
+<body class="home">
+
+<div id="wrapper">
+
+    <!--HEADER AREA-->
+    <header class="header-container">
+        <div class="container sm-full-container">
+            <div class="header-content">
+                <h1 class="logo">
+                    <a href="/" title="Opet Fuchs">
+                        <img src="/assets/img/new/opet-my-logo.png" class="_new_logo">
+                    </a>
+                </h1>
+
+                <button type="button" id="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+        </div>
+    </header>
+    <!--HEADER AREA-->
+    <% const {picture, translations} = content.data; %>
+    <section class="box-container container  ">
+        <header class="box-header">
+            <h1 class="opet-reg"><%=translations[0].name%></h1>
+        </header>
+        <article class="article">
+            <div class="article__image">
+                <img src="<%= picture %>">
+            </div>
+
+            <div class="about_right_text">
+                <%-translations[0].description%>
+            </div>
+        </article>
+    </section>
+</div>
+<%-include ('../common/blocks/footer') %>
+
+<script type="text/javascript" src="/assets/js/jquery.3.2.1.js"></script>
+<script type="text/javascript" src="/assets/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/assets/js/modernizr.js"></script>
+<script type="text/javascript" src="/assets/js/mobile.detect.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.alphanum.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.mask.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.print.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.serializejson.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.tmpl.js"></script>
+<script type="text/javascript" src="/assets/js/raphael.js"></script>
+<script type="text/javascript" src="/assets/js/swiper.js"></script>
+<script type="text/javascript" src="/assets/js/map.turkey.paths.js"></script>
+<script type="text/javascript" src="/assets/js/ui.js?v=1"></script>
+<script type="text/javascript" src="/assets/js/plugins.js"></script>
+<script type="text/javascript" src="/assets/js/services.js"></script>
+<script type="text/javascript" src="/assets/js/functions.js"></script>
+<script type="text/javascript" src="/assets/js/functions.map.js"></script>
+<script type="text/javascript" src="/assets/lib/jquery-tmpl/jquery.tmpl.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+
+
+    });
+
+
+</script>
+
+
+<!--LOGO SVG AREA-->
+<svg style="width:0; height:0; position:absolute; z-index:-1;">
+    <g id="opet-logo">
+        <g>
+            <path d="M69.5,31.2c1.7-0.5,3.7-0.4,4.3,0.6c0.6,1.1-0.5,3.2-2.9,3.9c-3.2,1-6.4,0.6-6.4,0.6c0.2-0.8,0.4-1.2,0.6-1.6 C66,32.9,68.2,31.6,69.5,31.2 M74.6,39.2c4.2-2.1,4.7-5.9,4.7-7.2c0.1-3-2.7-6.7-9.8-5.6c-6,0.9-10.4,5.6-11.3,11.7 c-0.4,2.8-1,8.8,5.8,10.3c5,1.1,10.6-0.9,10.6-0.9l1.2-4.6c-5.4,1.3-7.5,1.3-9.5,0.7c-2.2-0.7-2.1-2.9-2.1-2.9 C67,40.7,71.7,40.6,74.6,39.2"/>
+            <path d="M28.3,38.1c-1.7,5.2-4.8,5.4-5.9,5.4c-1.1,0-4.3-0.2-2.8-6c1.7-6,5.2-6,6.3-6C27.4,31.5,30.2,32.4,28.3,38.1 M27.4,26.6 l-17.8,0l-1.3,4.9l8.2,0c-1.2,1.1-2.2,3.5-2.2,3.5l-12,0L0.9,40l12,0c0,1.7,0.4,3.5,0.4,3.5H5.1l-1.3,4.9l18.4,0 c2.8,0,10.3-1.5,12.7-11.4C36.7,29.4,31.6,26.5,27.4,26.6"/>
+            <path d="M50.8,38.1c-1.7,5.2-4.8,5.4-5.9,5.4c-1.1,0-4.3-0.2-2.8-6c1.7-6,5.2-6,6.3-6C49.8,31.5,52.7,32.4,50.8,38.1 M50.3,26.3 c-10.9-0.8-13.3,8-13.5,8.6c0,0.1-4.9,17.9-4.9,17.9h6.2l1.5-5.6c7.5,4.6,15.5-1.4,17.3-9.4C59,28.5,52.6,26.5,50.3,26.3"/>
+            <path d="M94,43l-1.3,4.6c0,0-2.9,1.1-5.9,1.2c-2.7,0.1-5-1.2-5.8-2c-1.5-1.5-2-3.1-2.2-4.6c-0.1-1.3,0-2.2,0.1-2.9 c0.2-1.3,4.3-16,4.3-16l5.9,0l-0.9,3.3h7.1l-1.2,4.9l-7.2,0c0,0-0.5,1.9-1.1,4C85.3,38,85,39.4,85,40.6c0,0.3,0,1.6,1.1,2.5 c0.6,0.5,2.1,1.4,6.1,0.3C92.9,43.3,94,43,94,43"/>
+            <polygon
+                    points="119.2,38.4 117.4,46.3 112.8,46.3 117.1,27.6 128.7,27.6 128,31 120.9,31 119.9,35.1 126.7,35.1 125.9,38.4 	"/>
+            <path d="M142.6,38l2.4-10.4h4.6L147,38.7c-1.1,4.6-3.8,7.9-9.3,7.9c-3.7,0-7.8-1.4-7.8-5.6c0-1,0.1-2.1,0.4-3.1l2.4-10.3h4.6 l-2.3,10.1c-0.2,1-0.4,2-0.4,2.7c0,1.7,1.2,2.9,3.1,2.9C140.9,43.3,142,40.7,142.6,38"/>
+            <path d="M160.8,43c1.6,0,2.9-0.4,4.3-1l-0.7,3.9c-1.7,0.4-3.1,0.6-4.8,0.6c-5.5,0-9.2-3.4-9.2-8.4c0-6.4,5.2-10.7,11.9-10.7 c2.2,0,3.9,0.3,6,1l-1.2,3.5c-1.5-0.8-2.6-1.1-4.2-1.1c-4.3,0-7.8,3-7.8,7C155.2,40.8,157.6,43,160.8,43"/>
+            <polygon
+                    points="187.6,27.6 183.3,46.3 178.7,46.3 180.5,38.4 173.1,38.4 171.3,46.3 166.7,46.3 171.1,27.6 175.6,27.6 173.9,34.9 181.4,34.9 183,27.6 	"/>
+            <path d="M193.3,46.5c-2.3,0-4.2-0.4-6.4-1.1l1.2-3.6c1.8,0.9,3,1.4,5,1.4c2.2,0,3.5-1.1,3.5-2.6c0-2.7-6.8-2.7-6.8-7.4 c0-4.1,4-5.7,7.7-5.7c2.1,0,3.5,0.3,5.5,0.9l-1.2,3.4c-1.5-0.7-2.7-1.1-4.3-1.1c-2,0-3.2,0.9-3.2,2c0,2.4,7,2.6,7,7.7 C201.4,44.7,197.2,46.5,193.3,46.5"/>
+            <path d="M171.6,9.3c-2.6-0.6-5.3-0.9-8.1-0.9c-13.1,0-24.5,7-30.8,17.4c4.6-14.5,18.2-25.1,34.3-25.1c2.2,0,4.4,0.2,6.6,0.6 L171.6,9.3z"/>
+            <path d="M155.3,11.3c2.6-0.9,5.4-1.3,8.3-1.3c10.6,0,19.8,6.2,24.1,15.1c-5.5-5.4-13-8.7-21.3-8.7c-4.6,0-9,1-12.9,2.9L155.3,11.3z "/>
+            <path d="M143.9,64.7c2.6,0.6,5.3,0.9,8.1,0.9c13.1,0,24.5-7,30.8-17.4c-4.6,14.5-18.2,25.1-34.3,25.1c-2.2,0-4.4-0.2-6.6-0.6 L143.9,64.7z"/>
+            <path d="M160.1,62.7c-2.6,0.9-5.3,1.3-8.3,1.3c-10.6,0-19.8-6.2-24.1-15.1c5.5,5.4,13,8.7,21.3,8.7c4.6,0,9-1,12.9-2.9L160.1,62.7z "/>
+        </g>
+    </g>
+
+    <g id="icon-bullet">
+        <path d="M20,0.3l-13.4,0L5.6,4l6.2,0c-0.9,0.8-1.7,2.7-1.7,2.7l-9.1,0l-1,3.7l9,0c0,1.3,0.3,2.7,0.3,2.7H3.2l-1,3.7l13.9,0c2.1,0,7.8-1.2,9.6-8.6C27.1,2.4,23.2,0.2,20,0.3"/>
+    </g>
+</svg>
+<!--LOGO SVG AREA-->
+
+
+<%-include ('../common/blocks/end') %>

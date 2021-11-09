@@ -1,0 +1,59 @@
+<!--FOOTER AREA-->
+<footer class="footer-container">
+    <section class="footer-top-container bg-blue-200 color-white">
+        <div class="container">
+            <div id="footer-menu" class="row">
+                <% for (const entity of footerEntities) {%>
+                <div>
+                    <h4><%=entity.translations[0].name%></h4>
+                    <nav class="menu">
+                        <ul>
+                            <% for (const product of entity.products.filter(p => p.isVisible)) {
+                                const transl = product.translations[0];
+                                const extraParam = transl.link && transl.link.substr(0,4)==='http' ? ' target="_blank"' : '';
+                                const href = transl.link ? transl.link : `/article/${product.id}-${product.translations[0].urlName}.html`
+                                __append(`<li><a href="${href}" ${extraParam} title="${product.translations[0].name}">${product.translations[0].name}</a></li>`);
+                            } %>
+
+                        </ul>
+                    </nav>
+                </div>
+                <%} %>
+            </div>
+        </div>
+    </section>
+    <section class="footer-middle-container bg-blue-300 color-white">
+        <div class="container">
+            <div class="row">
+
+                <div class="footer-phone flex">
+                    <span><%=data.translations.sitetextfootercontactus%></span><i class="fa fa-phone bg-white color-blue-300"></i>
+                    <a href="tel:<%=data.settings.settingsphone%>" class="roboto-medium bg-white color-blue-300"><span>
+                        <%=data.settings.settingsphone%></span></a>
+                </div>
+
+                <div id="footer-social" class="flex">
+                    <a href="<%=data.settings.settingssociallinkfb%>"
+                       onclick="ga('send', 'social', 'Facebook', 'page', '<%=data.settings.settingssociallinkfb%>')"
+                       title="Opet Fuchs Facebook" class="social-btn" target="_blank"><i class="fa fa-fb"></i></a>
+                    <a href="<%=data.settings.settingssociallinkig%>"
+                       onclick="ga('send', 'social', 'Instagram', 'page', '<%=data.settings.settingssociallinkig%>')"
+                       title="Opet Fuchs Instagram" class="social-btn" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="<%=data.settings.settingssociallinkin%>"
+                       onclick="ga('send', 'social', 'LinkedIn', 'page', '<%=data.settings.settingssociallinkin%>')"
+                       title="Opet Fuchs LinkedIn" class="social-btn" target="_blank"><i class="fa fa-in"></i></a>
+                    <a href="<%=data.settings.settingssociallinkyt%>"
+                       onclick="ga('send', 'social', 'Youtube', 'page', '<%=data.settings.settingssociallinkyt%>')"
+                       title="Opet Fuchs YouTube" class="social-btn" target="_blank"><i class="fa fa-yt"></i></a>
+                </div>
+            </div>
+            <div class="new_footer_text">
+                <p>
+                    <%=data.translations.sitetextfootercopy%>
+                </p>
+            </div>
+        </div>
+    </section>
+
+</footer>
+<!--FOOTER AREA-->

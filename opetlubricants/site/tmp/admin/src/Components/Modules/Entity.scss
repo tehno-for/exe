@@ -1,0 +1,222 @@
+.entity {
+  &__header {
+    margin-bottom: 1rem;
+  }
+
+  &__main-image {
+    max-width: 4em;
+    max-height: 4em;
+  }
+
+  &__control {
+    min-width: 1.25em;
+
+    &:not(:last-child) {
+      margin-right: .5em;
+    }
+  }
+
+  &__pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+  }
+
+  &__page-item {
+    cursor: pointer;
+
+    &:not(:last-of-type) {
+      margin-right: 0.5rem;
+    }
+
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+.tox.tox-tinymce {
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 40px;
+  }
+
+  ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 40px;
+  }
+}
+
+.entity-item-details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: .5rem;
+  align-items: center;
+
+  .tox {
+    grid-column: 1 / span 2;
+  }
+
+  hr {
+    grid-column: 1 / span 2;
+  }
+}
+
+.image-edit {
+  .main-image {
+    &-box {
+      display: flex;
+    }
+
+    &-image {
+      width: 90px;
+      height: 90px;
+      margin: 1rem;
+    }
+
+    &-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  } //main image
+
+  .other-images {
+    .title {
+      margin-bottom: .5rem;
+    }
+
+    &::before {
+      display: block;
+      width: 100%;
+      height: 2px;
+      margin-bottom: .5rem;
+      content: '';
+      background-color: #ccc;
+    }
+
+    &-box {
+      display: flex;
+
+      &:first-child {
+        .other-images-move {
+          &::before {
+            display: inline-block;
+            content: '';
+          }
+
+          button:first-child {
+            display: none;
+          }
+        }
+      }
+
+      &:last-child {
+        .other-images-move {
+          button:last-child {
+            display: none;
+          }
+        }
+      }
+    }
+
+    &-image {
+      width: 90px;
+      height: 90px;
+      margin: 1rem;
+    }
+
+    &-move {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+      margin: 0 1rem;
+      font-size: 0.75em;
+    }
+
+    &-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.progress {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 468px;
+  height: 50px;
+  margin: 3rem auto 1rem;
+  background: linear-gradient(180deg, #ccc, #eee);
+  border-radius: 10rem;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 -1px 4px rgba(0, 0, 0, 0.2);
+
+  --progress: 0%;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-size: 2em;
+    content: attr(data-progress);
+    transform: translate(-50%, calc(-100% - 1rem));
+  }
+}
+
+.bar {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--progress);
+  height: 40px;
+  overflow: hidden;
+  background: linear-gradient(0deg, #444, #bbb);
+  border-radius: 10rem;
+
+  &::before {
+    position: absolute;
+    left: -10px;
+    width: 20px;
+    height: 100%;
+    content: '';
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 50px 0 0 rgba(255, 255, 255, 0.2), 100px 0 0 rgba(255, 255, 255, 0.2), 150px 0 0 rgba(255, 255, 255, 0.2), 200px 0 0 rgba(255, 255, 255, 0.2), 250px 0 0 rgba(255, 255, 255, 0.2), 300px 0 0 rgba(255, 255, 255, 0.2), 350px 0 0 rgba(255, 255, 255, 0.2), 400px 0 0 rgba(255, 255, 255, 0.2), 450px 0 0 rgba(255, 255, 255, 0.2), 500px 0 0 rgba(255, 255, 255, 0.2);
+    transform: skew(-30deg);
+  }
+
+  &.in-progress::before {
+    animation: animate 1s infinite linear;
+  }
+}
+
+@keyframes animate {
+  from {
+    left: -10px;
+  }
+
+  to {
+    left: -60px;
+  }
+}

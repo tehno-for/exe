@@ -1,0 +1,409 @@
+<%- include ('../common/blocks/head')%>
+
+<body class="home">
+
+<div id="wrapper">
+
+    <!--HEADER AREA-->
+    <header class="header-container">
+        <div class="container sm-full-container">
+            <div class="header-content">
+                <h1 class="logo">
+                    <a href="/" title="Opet Fuchs">
+                        <img src="/assets/img/new/opet-my-logo.png" class="_new_logo">
+                    </a>
+                </h1>
+                <div class="header-top-menu" style="right: 0">
+                    <nav class="menu">
+                        <ul class="flex">
+
+                            <% if(data.entities.toplinks)for(const link of data.entities.toplinks) {
+                                const extraParam = link.link && link.link.substr(0,4)==='http' ? ' target="_blank"' : '';
+                                const href = link.link ? link.link : `/article/${link.id}-${link.urlName}.html`
+                                __append(`<li><a href="${href}" title="${link.title}" ${extraParam}>${link.title}</a></li>`);
+                            }%>
+
+                        </ul>
+                    </nav>
+                </div>
+
+                <button type="button" id="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+            <div id="header-menu-container">
+                <div class="header-menu-content flex">
+                    <nav id="header-menu" class="menu">
+                        <ul class="flex">
+
+                            <% if(objects)for(const object of objects) {
+                                const objCategory = object.categories[0];
+                                if (objCategory) {
+                                    __append(`<li><a href="/category/${objCategory.id}-${objCategory.name}.html" title="${object.name}" data-id="${object.id}" target="_self">${object.name}</a></li>`);
+                                }
+                            }%>
+
+                        </ul>
+                    </nav>
+                    <nav id="header-lang-menu" class="menu">
+                        <ul class="flex">
+                            <% for(const lng of ['az', 'ru', 'en']) {
+                                __append(`<li${lng===lang?' class="active"':''}><a href="/setLanguage/${lng}" title="${lng.toUpperCase()}">${lng.toUpperCase()}</a></li>`);
+                            }%>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="mobile-header-search"></div>
+            </div>
+
+        </div>
+    </header>
+    <!--HEADER AREA-->
+
+    <!--BANNER AREA-->
+    <section class="banner-container large">
+        <div id="banner-swiper"
+             data-swiper="{'options': {'slidesPerView': 1,'loop': true,'autoplay': {'delay': 60000},'navigation': true,'pagination': true},'arrColor':'white','navClass': 'display-lg-block' }">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide banner-item flex banner-text-right">
+                        <div class="banner-media">
+                            <% const {id} = objects.find(object => object.isActive) %>
+                            <div data-video="{'src': '/assets/video/<%=id%>.mp4'}"  data-responsive="desktop" class="loading"></div>
+                        </div>
+
+                        <div class="container flex">
+                            <div>
+                                <h3 class="opet-reg color-white"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--BANNER AREA-->
+
+
+    <!--OPET LUBRICANTS-->
+    <section class="box-container container" id="opet_lubricants_vehicle">
+
+        <header class="box-header">
+            <h2 id="main-category-name" class="opet-reg" style="display: block;">
+                <% if (!page || ['category', 'product'].indexOf(page)>=0) { %>
+                <%=objects ? objects.find(obj=>(obj.isActive)).name: ''%>
+                <% } else { %>
+                    <% const footerEntity = (footerEntities.find(item => item.id === content.categoryId));
+                    const titleMainName = footerEntity ?
+                                footerEntity.translations[0].name :
+                                (content && content.translations ? content.translations[0].name : '');
+
+                    %>
+                <%=titleMainName%>
+                <% } %>
+            </h2>
+        </header>
+
+        <% if (!page || ['category', 'product'].indexOf(page)>=0) { %>
+        <div class="box-menu" style="display: block;">
+            <nav class="menu" id="categories">
+                <ul class="flex">
+
+                    <% if(objects){
+                        const currentObj = objects.find(obj=>(obj.isActive));
+                        for(const category of currentObj.categories) {
+                            if(category.products && category.products.length > 0) {
+                                __append(`<li${category.isActive ? ' class="selected"' : ''}><a href="/category/${category.id}-${category.name}.html" class="flex" data-id="${category.id}" data-main-category-id="${currentObj.id}"><i class="${category.icon}"><u>${category.svg}</u></i><span>${category.name}</span></a></li>`);
+                            }
+                        }}%>
+
+                </ul>
+            </nav>
+
+            <div class="box-menu-select">
+                <div class="custom-select">
+                    <span class="t flex name_area" id="name_area">
+                        <span class="t flex">
+                            <% if(objects){
+                                const currentObj = objects.find(obj=>(obj.isActive));
+                                if (currentObj && currentObj.activeCategory) { %>
+                            <i class="<%=currentObj.activeCategory.icon%>"><u><%-currentObj.activeCategory.svg%></u></i>
+                            <span><%=currentObj.activeCategory.name%></span>
+                            <% } } %>
+                        </span>
+                    </span>
+                    <span class="arr fa"></span>
+
+                    <select class="select-item" id="select-categories">
+                        <option value="-1"></option>
+                        <% if(objects){
+                            const currentObj = objects.find(obj=>(obj.isActive));
+                            let boxSelIndex = 0;
+
+
+                            for(const category of currentObj.categories) {
+                                if(category.products && category.products.length > 0) {
+                                    __append(`<option${category.isActive ? ' selected' : ''} value="${category.id}">${category.name}</option>`);
+                                }
+                            }}%>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <article class="box-content">
+            <% if (page === 'product' && content) {
+                const currentObj = objects.find(obj=>(obj.isActive));
+
+                %>
+                <article class="box-content">
+                    <div class="row">
+                        <div class="breadcrumb-content">
+                            <a href="<%=`/category/${currentObj.categories[0].id}-${currentObj.categories[0].name}.html`%>" class="color-gray-400"><%=currentObj.name%></a>
+
+                            <i class="fa fa-arr-right color-gray-400"></i>
+                            <a href="<%=`/category/${currentObj.activeCategory.id}-${currentObj.activeCategory.name}.html`%>" class="color-gray-400"><%=currentObj.activeCategory.name%></a>
+
+
+                        </div>
+                        <div class="product" style="">
+
+                            <div class="product-image flex">
+                                <img style="width: 100%;" id="productImageBoxContent" src="<%=content.picture%>" alt="<%=content.translations[0].name%>">
+                            </div>
+                            <div class="product-details">
+
+                                <div class="product-header">
+                                    <h1 class="roboto-reg color-gray-700"><%=content.translations[0].name%></h1>
+
+                                </div>
+                                <div class="product-desc color-gray-700 roboto-light">
+                                    <div><%-content.translations[0].description%></div>
+                                </div>
+
+                                <div class="product--sizes flex">
+                                    <h3 class="roboto-medium color-gray-500"><%=data.translations.sitetextproductsize%></h3>
+                                    <div>
+                                        <% for (const size of content.productSizes) {
+                                            __append(`<a class="product-size" data-price="${size.price}" data-picture="${size.picture ? size.picture : content.picture}" title="${content.translations[0].name} ${size.size}">${size.size}</a>`);
+                                        }%>
+
+                                    </div>
+                                </div>
+
+                                <div class="product-price-box"><span id="productPrice"></span></div>
+                                <div class="product-doc">
+
+                                    <% for(const link of content.translations[0].productDetailLinks) {
+                                        let extraParam = 'href';
+                                        if (link.url.substr(-4).toUpperCase()==='.PDF') {
+                                            extraParam = 'data-overlay-pdf';
+                                        } else if (
+                                                link.url.substr(-4).toUpperCase()==='.JPG' ||
+                                                link.url.substr(-4).toUpperCase()==='.JPEG' ||
+                                                link.url.substr(-4).toUpperCase()==='.PNG' ||
+                                                link.url.substr(-4).toUpperCase()==='.GIF'
+                                        ) {
+                                            extraParam = 'data-overlay-image';
+                                        }
+                                        __append(`<a style="" ${extraParam}="${link.url}" onclick="ga('send', 'event', 'button', 'click', '', '${content.translations[0].name}')" class="btn border color-blue-300 fill-blue-300 flex product-link" title="${link.name}" target="_blank">
+                                           <span>${link.name}</span><i class="is-useful-information"><u>${link.svg}</u></i></a>`)
+                                    }%>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            <script>
+                let clicked = false;
+                document.querySelectorAll('.product-size').forEach(anchor => {
+                    anchor.addEventListener('click', e => {
+                        const {picture, price} = e.target.dataset;
+                        document.getElementById('productImageBoxContent').setAttribute('src', picture);
+                        const priceBox = document.getElementById('productPrice');
+                        priceBox.textContent = price && price > 0 ? `${parseFloat(price).toFixed(2)} AZN` : '<%=data.translations.sitetextproductnoprice%>';
+                        try {
+                            $('.product-size').removeClass('active');
+                            $(anchor).addClass('active');
+                        } catch (e) {
+                            console.log('init...')
+                        }
+                    });
+                    if (!clicked) {
+                        clicked = true;
+                        anchor.classList.add('active');
+                        anchor.click();
+                    }
+                });
+            </script>
+            <% } else { %>
+            <div id="products-all" style="flex-wrap: wrap;" class="flex">
+
+                <% if(objects){
+                    const currentObj = objects.find(obj=>(obj.isActive));
+                    for(const product of currentObj.activeCategory.products) {
+                        __append(`
+                        <div class="product-item">
+                            <a href="/product/${product.id}-${product.urlName}.html" data-id="${product.id}">
+                                <img src="${product.picture}" alt=""/>
+                                <b class="roboto-reg">${product.name}</b>
+                            </a>
+                        </div>
+                        `);
+                    }}%>
+
+            </div>
+            <% } %>
+        </article>
+        <% } else {%>
+            <% if (content && content.category && content.category.objectId===0) { %>
+                <div class="box-menu">
+                    <nav class="menu">
+                        <ul class="flex">
+                            <% const footerEntity = footerEntities.find(e => e.id === content.category.id) %>
+                            <% for (const entity of footerEntity.products.filter(p => p.isVisible)) {
+
+                                const transl = entity.translations[0];
+                                const extraParam = transl.link && transl.link.substr(0,4)==='http' ? ' target="_blank"' : '';
+                                const href = transl.link ? transl.link : `/article/${entity.id}-${entity.translations[0].urlName}.html`
+
+                                %>
+                            <li class="<%=entity.id===content.id?'selected':''%>">
+                                <a href="<%=href%>" <%=extraParam%>
+                                   class="flex" title="<%=entity.name%>">
+                                    <%=entity.translations[0].name%>
+                                </a>
+                            </li>
+                            <% } %>
+                        </ul>
+                    </nav>
+            <%}%>
+            <article class="article">
+                <div class="article__image">
+                    <img src="<%= content && content.picture %>">
+                </div>
+
+                <div class="article__text">
+                    <%-content && content.translations ? content.translations[0].description : ''%>
+                </div>
+            </article>
+        <%} %>
+    </section>
+    <!--OPET LUBRICANTS-->
+
+    <!-- ---------------------------------PRODUCTS POP-UP-------------------  -->
+
+    <%-include ('./modals/technical_pop_up') %>
+
+    <!-- ---------------------------------PRODUCTS POP-UP-------------------  -->
+
+    <%-include ('./sections/tech-support') %>
+
+    <%-include ('./modals/technical_pop_up1') %>
+    <%-include ('./sections/about') %>
+
+    <%-include ('./sections/services') %>
+</div>
+
+<%-include ('../common/blocks/footer') %>
+
+<script type="text/javascript" src="/assets/js/jquery.3.2.1.js"></script>
+<script type="text/javascript" src="/assets/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/assets/js/modernizr.js"></script>
+<script type="text/javascript" src="/assets/js/mobile.detect.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.alphanum.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.mask.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.print.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.serializejson.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.tmpl.js"></script>
+<script type="text/javascript" src="/assets/js/raphael.js"></script>
+<script type="text/javascript" src="/assets/js/swiper.js"></script>
+<script type="text/javascript" src="/assets/js/map.turkey.paths.js"></script>
+<script type="text/javascript" src="/assets/js/ui.js?v=1"></script>
+<script type="text/javascript" src="/assets/js/plugins.js"></script>
+<script type="text/javascript" src="/assets/js/services.js"></script>
+<script type="text/javascript" src="/assets/js/functions.js"></script>
+<script type="text/javascript" src="/assets/js/functions.map.js"></script>
+<script type="text/javascript" src="/assets/lib/jquery-tmpl/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="/assets/js/pages/index.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170956486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170956486-1');
+</script>
+
+<!-- Start of  Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=6d3f290f-256d-45ad-8596-f9a84e950043"> </script>
+<!-- End of  Zendesk Widget script -->
+<script>
+
+    $(document).ready(function () {
+
+        page.init();
+
+        $("#show-all").click(function () {
+            $('#products-slider-container').hide();
+            $('#products-all').show();
+        });
+
+        $('body').on("click",".close_pop_Up1", function () {
+            $('body').removeClass('hiddes_S');
+            $('#technical_pop_up').hide();
+            $('#pop_Up1').removeClass('open');
+            $('#overlay-bg').removeClass('open');
+        });
+
+
+        $("#close_pop_Up").click(function () {
+            $('body').removeClass('hiddes_S');
+            $('#technical_pop_up1').hide();
+            $('#pop_Up').removeClass('open');
+            $('#overlay-bg').removeClass('open');
+        });
+
+    });
+
+
+</script>
+
+
+<!--LOGO SVG AREA-->
+<svg style="width:0; height:0; position:absolute; z-index:-1;">
+    <g id="opet-logo">
+        <g>
+            <path d="M69.5,31.2c1.7-0.5,3.7-0.4,4.3,0.6c0.6,1.1-0.5,3.2-2.9,3.9c-3.2,1-6.4,0.6-6.4,0.6c0.2-0.8,0.4-1.2,0.6-1.6 C66,32.9,68.2,31.6,69.5,31.2 M74.6,39.2c4.2-2.1,4.7-5.9,4.7-7.2c0.1-3-2.7-6.7-9.8-5.6c-6,0.9-10.4,5.6-11.3,11.7 c-0.4,2.8-1,8.8,5.8,10.3c5,1.1,10.6-0.9,10.6-0.9l1.2-4.6c-5.4,1.3-7.5,1.3-9.5,0.7c-2.2-0.7-2.1-2.9-2.1-2.9 C67,40.7,71.7,40.6,74.6,39.2"/>
+            <path d="M28.3,38.1c-1.7,5.2-4.8,5.4-5.9,5.4c-1.1,0-4.3-0.2-2.8-6c1.7-6,5.2-6,6.3-6C27.4,31.5,30.2,32.4,28.3,38.1 M27.4,26.6 l-17.8,0l-1.3,4.9l8.2,0c-1.2,1.1-2.2,3.5-2.2,3.5l-12,0L0.9,40l12,0c0,1.7,0.4,3.5,0.4,3.5H5.1l-1.3,4.9l18.4,0 c2.8,0,10.3-1.5,12.7-11.4C36.7,29.4,31.6,26.5,27.4,26.6"/>
+            <path d="M50.8,38.1c-1.7,5.2-4.8,5.4-5.9,5.4c-1.1,0-4.3-0.2-2.8-6c1.7-6,5.2-6,6.3-6C49.8,31.5,52.7,32.4,50.8,38.1 M50.3,26.3 c-10.9-0.8-13.3,8-13.5,8.6c0,0.1-4.9,17.9-4.9,17.9h6.2l1.5-5.6c7.5,4.6,15.5-1.4,17.3-9.4C59,28.5,52.6,26.5,50.3,26.3"/>
+            <path d="M94,43l-1.3,4.6c0,0-2.9,1.1-5.9,1.2c-2.7,0.1-5-1.2-5.8-2c-1.5-1.5-2-3.1-2.2-4.6c-0.1-1.3,0-2.2,0.1-2.9 c0.2-1.3,4.3-16,4.3-16l5.9,0l-0.9,3.3h7.1l-1.2,4.9l-7.2,0c0,0-0.5,1.9-1.1,4C85.3,38,85,39.4,85,40.6c0,0.3,0,1.6,1.1,2.5 c0.6,0.5,2.1,1.4,6.1,0.3C92.9,43.3,94,43,94,43"/>
+            <polygon
+                    points="119.2,38.4 117.4,46.3 112.8,46.3 117.1,27.6 128.7,27.6 128,31 120.9,31 119.9,35.1 126.7,35.1 125.9,38.4 	"/>
+            <path d="M142.6,38l2.4-10.4h4.6L147,38.7c-1.1,4.6-3.8,7.9-9.3,7.9c-3.7,0-7.8-1.4-7.8-5.6c0-1,0.1-2.1,0.4-3.1l2.4-10.3h4.6 l-2.3,10.1c-0.2,1-0.4,2-0.4,2.7c0,1.7,1.2,2.9,3.1,2.9C140.9,43.3,142,40.7,142.6,38"/>
+            <path d="M160.8,43c1.6,0,2.9-0.4,4.3-1l-0.7,3.9c-1.7,0.4-3.1,0.6-4.8,0.6c-5.5,0-9.2-3.4-9.2-8.4c0-6.4,5.2-10.7,11.9-10.7 c2.2,0,3.9,0.3,6,1l-1.2,3.5c-1.5-0.8-2.6-1.1-4.2-1.1c-4.3,0-7.8,3-7.8,7C155.2,40.8,157.6,43,160.8,43"/>
+            <polygon
+                    points="187.6,27.6 183.3,46.3 178.7,46.3 180.5,38.4 173.1,38.4 171.3,46.3 166.7,46.3 171.1,27.6 175.6,27.6 173.9,34.9 181.4,34.9 183,27.6 	"/>
+            <path d="M193.3,46.5c-2.3,0-4.2-0.4-6.4-1.1l1.2-3.6c1.8,0.9,3,1.4,5,1.4c2.2,0,3.5-1.1,3.5-2.6c0-2.7-6.8-2.7-6.8-7.4 c0-4.1,4-5.7,7.7-5.7c2.1,0,3.5,0.3,5.5,0.9l-1.2,3.4c-1.5-0.7-2.7-1.1-4.3-1.1c-2,0-3.2,0.9-3.2,2c0,2.4,7,2.6,7,7.7 C201.4,44.7,197.2,46.5,193.3,46.5"/>
+            <path d="M171.6,9.3c-2.6-0.6-5.3-0.9-8.1-0.9c-13.1,0-24.5,7-30.8,17.4c4.6-14.5,18.2-25.1,34.3-25.1c2.2,0,4.4,0.2,6.6,0.6 L171.6,9.3z"/>
+            <path d="M155.3,11.3c2.6-0.9,5.4-1.3,8.3-1.3c10.6,0,19.8,6.2,24.1,15.1c-5.5-5.4-13-8.7-21.3-8.7c-4.6,0-9,1-12.9,2.9L155.3,11.3z "/>
+            <path d="M143.9,64.7c2.6,0.6,5.3,0.9,8.1,0.9c13.1,0,24.5-7,30.8-17.4c-4.6,14.5-18.2,25.1-34.3,25.1c-2.2,0-4.4-0.2-6.6-0.6 L143.9,64.7z"/>
+            <path d="M160.1,62.7c-2.6,0.9-5.3,1.3-8.3,1.3c-10.6,0-19.8-6.2-24.1-15.1c5.5,5.4,13,8.7,21.3,8.7c4.6,0,9-1,12.9-2.9L160.1,62.7z "/>
+        </g>
+    </g>
+
+    <g id="icon-bullet">
+        <path d="M20,0.3l-13.4,0L5.6,4l6.2,0c-0.9,0.8-1.7,2.7-1.7,2.7l-9.1,0l-1,3.7l9,0c0,1.3,0.3,2.7,0.3,2.7H3.2l-1,3.7l13.9,0c2.1,0,7.8-1.2,9.6-8.6C27.1,2.4,23.2,0.2,20,0.3"/>
+    </g>
+</svg>
+<!--LOGO SVG AREA-->
+
+
+<%-include ('../common/blocks/end') %>
