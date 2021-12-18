@@ -7,6 +7,7 @@ require 'inc/header.php';
     <div class="wrapper">
         
         <?php
+        echo $_ENV['SECRET'];
         // get each line of file into an array
         $file = file('inc/quotes.txt');
         // grab a random array element
