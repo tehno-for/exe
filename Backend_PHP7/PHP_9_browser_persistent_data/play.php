@@ -1,10 +1,14 @@
 <?php
+session_start();
 $total = 5;
 $page = filter_input(INPUT_GET, 'p', FILTER_SANITIZE_NUMBER_INT);
 if(empty($page)){
     $page = 1;
 }
-
+if(isset($_POST['word'])){
+    $_SESSION['word'][$page-1] = filter_input(INPUT_POST, 'word', FILTER_SANITIZE_STRING);
+    var_dump($_SESSION);
+}
 
 if ($page > $total) {
     header('location: story.php');
@@ -15,7 +19,7 @@ include 'inc/header.php';
 
 echo "<h1>Step $page of $total</h1>";
 
-echo '<form method="post" action="play.php?p=' . '($page+1)'.'">';
+echo '<form method="post" action="play.php?p=' . $page+1 .'">';
 echo '<div class="form-group form-group-lg">';
 
 switch ($page) {
