@@ -13,16 +13,16 @@ function isPol($x) {
     for($i=0; $i<$d; $i++){
         $a = number_format(substr(strval($x), $i, 1));
         $b = number_format(substr(strval($x), -$i-1, 1));
-        echo $a . $b."<br>";
+        //echo $a . $b."<br>";
         if($a !== $b){
-            echo $x . " is not a polindrome!";
+            
             $status = false;
             break;
         } else {
             $status = true;
         }
     } 
-    return $x . " is a polindome!";
+    return $status;
 }
 
 
@@ -30,7 +30,7 @@ function isPalindrome($x) {
     $m = 0;
     switch($x){
         case $x<=11:
-        echo $x . " is not a polindrome!";
+        return false;
         exit;
         default:
         
@@ -38,5 +38,4 @@ function isPalindrome($x) {
         }
      
 }
-echo isPalindrome(12322);
-// echo strlen(4000);
+isPalindrome(12);
