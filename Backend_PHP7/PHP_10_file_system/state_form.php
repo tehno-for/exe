@@ -5,6 +5,6 @@
     </select>
     <label for="state">State</label>
     <select name="state" id="state">
-        <?php if(include 'data/html/states.html'; ?>
+        <?php include 'data/html/states.html'; ?>
     </select>
 </form>
